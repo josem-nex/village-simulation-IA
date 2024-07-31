@@ -1,3 +1,4 @@
+from functools import reduce
 from random import randint
 
 class Resources:
@@ -21,12 +22,22 @@ class Action:
         return self._location
     
     @property
-    def yields(self):
+    def yields(self) -> dict[str, int]:
         return self._yields
     
     @property
-    def events(self):
+    def events(self) -> list:
         return self._events
+    
+    # naive weight function
+    @property
+    def value(self) -> float:
+        yields_val = reduce(lambda a, b: a + b, [x for x in self.yields.values()], 0)
+        val = yields_val / self.duration
+        success_prob = [x[1] for x in self.events if x[0] == "SUCCESS"]
+        val *= success_prob[0] / 100
+        
+        return val
 
 ACTIONS = {
     "FARM": Action(
