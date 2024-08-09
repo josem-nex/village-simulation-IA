@@ -1,5 +1,6 @@
+import sys
 from typing import Dict, Optional
-from src.Entities.WorldSetup.Climate import Climate
+from Entities.WorldSetup.Climate import *
 import copy
 class Terrain:
     """

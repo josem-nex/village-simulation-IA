@@ -36,20 +36,3 @@ class StochasticEvent:
             village.modify_population(self.population_change)
 
 
-
-# Examples
-# sequia = StochasticEvent(
-#     name="Sequía",
-#     description="Un período prolongado de sequía afecta la aldea.",
-#     resource_changes={"Agua": -50},
-#     population_change=-10,
-#     probability=0.2
-# )
-
-# inundacion = StochasticEvent(
-#     name="Inundación",
-#     description="Un fuerte aguacero causa una inundación en la aldea.",
-#     resource_changes={"Madera": -20, "Piedra": -10},
-#     population_change=-5,
-#     probability=0.15
-# )
