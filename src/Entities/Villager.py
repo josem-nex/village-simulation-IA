@@ -7,8 +7,10 @@ class Villager():
         self.age = age
         self.health = health
         self.hunger = hunger
+        self.energy = 1
         self.job = None
         self.skills = skills
+        self.tools = []
         #  ? la cantidad de recursos/objetos que llevan encima 
         self.resources = {}
         #  ? las relaciones con otros aldeanos ?
@@ -22,12 +24,13 @@ class Villager():
     
     def eat(self, food):
         self.hunger-= food.nutrition_value
+
     
-    def work(self):
-        if self.job:
-            self.job.perform_work(self)
-        else:
-            self.job = find_job()
+    def add_skill(self, skill):
+        self.skills.append(skill)
+    
+    def add_tool(self, tool):
+        self.tools.append(tool)
 
     
     
