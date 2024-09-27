@@ -1,0 +1,70 @@
+import random
+from experta import KnowledgeEngine, Rule, Fact, Field, DefFacts, OR, AS, L
+
+class Task(Fact):
+    name = Field(str, default='')
+    energy = Field(int, default='')
+    hunger = Field(int, default='')
+    thirst = Field(int, default='')
+    health = Field(int, default='')
+    mood = Field(int, default='')
+    age = Field(int, default='')
+    gender = Field(int, default='')
+
+class VillagerFact(Fact):
+    energy = Field(str, default='')
+    hunger = Field(str, default='')
+    thirst = Field(str, default='')
+    health = Field(str, default='')
+    mood = Field(str, default='')
+    age = Field(str, default='')
+
+# define task cost in energy
+# define task outcomes
+# define task incomes
+# define task requirements
+# define task dependencies
+class VillagerAgent(KnowledgeEngine):
+    def __init__(self, state):
+        super().__init__()
+        self.state = state
+
+    @DefFacts()
+    def get_villager_facts(self):
+        state = {}
+        for attribute in self.state.get_attributes():
+            state[attribute] = self.state.get_attribute(attribute)
+        yield VillagerFact(**state)
+    
+    # personal tasks
+    @Rule(OR(VillagerFact(hunger='hungry')) , VillagerFact(hunger='starving'))
+    def eat(self):
+        print("Villager is eating.")
+        # self.declare(Task(name='eat'))
+
+    @Rule(VillagerFact(energy='exhausted'))
+    def sleep(self):
+        print("Villager is sleeping.")
+        # self.declare(Task(name='sleep'))
+
+    @Rule(VillagerFact(energy='tired'))
+    def nap(self):
+        print("Villager is taking a nap.")
+        # self.declare(Task(name='nap'))
+
+    @Rule(OR(VillagerFact(thirst='thirsty'), VillagerFact(thirst='dehidrated')))
+    def drink(self):
+        print("Villager is drinking water.")
+        # self.declare(Task(name='drink'))
+
+    @Rule(OR(VillagerFact(mood='sad'), VillagerFact(mood='neutral')))
+    def socialize(self):
+        print("Villager is socializing.")
+        # self.declare(Task(name='socialize'))
+
+    @Rule(AS.fact << Fact())
+    def unknown_task(self, fact):
+        print(f"Villager does not know what to do.")
+        # print(fact.values())
+
+
