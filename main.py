@@ -1,5 +1,5 @@
-import agents
+from src.simulation.runner import SimulationRunner
 
 if __name__ == '__main__':
-    for x in agents.ACTIONS.values():
-        print(x.value)
+    runner = SimulationRunner(100)
+    runner.run_simulation()
