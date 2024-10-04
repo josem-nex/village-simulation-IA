@@ -1,3 +1,4 @@
 experta==1.9.4
 google-generativeai==0.5.4
 simpy==4.0.2
+streamlit==1.23.1
