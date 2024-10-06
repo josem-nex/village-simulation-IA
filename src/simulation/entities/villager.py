@@ -1,6 +1,5 @@
-from ..states.villager import VillagerState
-from ..agents.villager import VillagerAgent
-
+from states.villager import VillagerState
+from agents.villager import VillagerAgent
 class Villager:    
     def __init__(self):
         self.state = VillagerState()

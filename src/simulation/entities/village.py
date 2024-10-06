@@ -1,7 +1,7 @@
-from ..states.village import VillageState
-from ..agents.village import VillageAgent
-from .villager import Villager
-from ..algorithms.genetic import genetic_algorithm
+from states.village import VillageState
+from agents.village import VillageAgent
+from entities.villager import Villager
+from algorithms.genetic import genetic_algorithm
 
 class Village:
     def __init__(self, state=None):

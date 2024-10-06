@@ -1,4 +1,4 @@
-from .action import Action, ActionChange
+from actions.action import Action, ActionChange
 
 class VillageAction(Action):
     pass

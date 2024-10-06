@@ -1,7 +1,7 @@
 import simpy
 
 # from .agents import villager
-from .entities.village import Village
+from entities.village import Village
 
 class SimulationRunner:
     def __init__(self, iterations):
@@ -33,3 +33,6 @@ class SimulationRunner:
             print("villagers recover from last day")
             self.village.care_villagers()
             yield self.env.timeout(1)
+
+s = SimulationRunner(5)
+s.run_simulation()

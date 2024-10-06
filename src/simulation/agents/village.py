@@ -1,7 +1,7 @@
 import random
 from experta import KnowledgeEngine, Rule, Fact, Field, DefFacts, OR, AS, L
 
-from ..actions import village as actions
+from actions import village as actions
 
 class VillageFact(Fact):
     food = Field(str, default='')
