@@ -2,12 +2,13 @@ from states.village import VillageState
 from agents.village import VillageAgent
 from entities.villager import Villager
 from algorithms.genetic import genetic_algorithm
+from actions.villager import VillagerTask
 
 class Village:
-    def __init__(self, state=None):
+    def __init__(self, state=None, villagers=6):
         self.state = VillageState(state)
         self.agent = VillageAgent(self.state)
-        self.villagers = [Villager() for _ in range(6)]
+        self.villagers = [Villager() for _ in range(villagers)]
         self.actions = []
         
     def add_villager(self, villager):
@@ -22,7 +23,23 @@ class Village:
     def care_villagers(self):
         for i, villager in enumerate(self.villagers):
             print(f"Caring Villager {i}")
-            villager.select_task()
+            task = villager.select_task()
+            self.execute_villager_task(villager, task,i)
+            
+    def execute_villager_task(self, villager: Villager, task: VillagerTask,i):
+        print(f"Villager {i} is {task.name}")
+        for income in task.income.village:
+            val = task.income.village[income]
+            self.state.update_attribute(income, val)
+        for income in task.income.villager:
+            val = task.income.villager[income]
+            villager.state.update_attribute(income, val)
+        for outcome in task.outcome.village:
+            val = task.outcome.village[outcome]
+            self.state.update_attribute(outcome, val)
+        for outcome in task.outcome.villager:
+            val = task.outcome.villager[outcome]
+            villager.state.update_attribute(outcome, val) 
     
     def infer_actions(self):
         self.agent.reset()

@@ -8,15 +8,15 @@ class SimulationRunner:
         self.env = simpy.Environment()
         self.iterations = iterations
         initial_state = {
-            "food": 10,
-            "wood": 30,
+            "food": 50,
+            "wood": 40,
             "water": 20,
             "herbs": 5,
             "stone": 10,
             "tools": 3,
             "metal": 0
         }
-        self.village = Village(initial_state)
+        self.village = Village(initial_state, villagers=6)
         # self.villager.state.show_state()
 
     def run_simulation(self):
