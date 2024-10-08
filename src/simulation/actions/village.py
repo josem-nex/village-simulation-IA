@@ -1,16 +1,16 @@
-from .action import Action, ActionChange
+from actions.action import Action, ActionChange
 
 class VillageAction(Action):
     pass
 
 FarmAction = VillageAction(
-    'farm', 
-    ActionChange(
+    name='farm', 
+    income=ActionChange(
         village={
             'food': 10
         }
     ),
-    ActionChange(
+    outcome=ActionChange(
         villager={
             'energy': 40
         }
@@ -18,13 +18,13 @@ FarmAction = VillageAction(
 )
 
 GatherHerbsAction = VillageAction(
-    'gather_herbs',
-    ActionChange(
+    name='gather_herbs',
+    income=ActionChange(
         village={
             'herbs': 5
         }
     ),
-    ActionChange(
+    outcome=ActionChange(
         villager={
             'energy': 35
         }
@@ -32,13 +32,13 @@ GatherHerbsAction = VillageAction(
 )
 
 GatherWaterAction = VillageAction(
-    'gather_water',
-    ActionChange(
+    name='gather_water',
+    income=ActionChange(
         village={
             'water': 8
         }
     ),
-    ActionChange(
+    outcome=ActionChange(
         villager={
             'energy': 20
         }
@@ -46,13 +46,13 @@ GatherWaterAction = VillageAction(
 )
 
 CookAction = VillageAction(
-    'cook',
-    ActionChange(
+    name='cook',
+    income=ActionChange(
         village={
             'food': 10
         }
     ),
-    ActionChange(
+    outcome=ActionChange(
         village={
             'food': 20
         },
@@ -63,13 +63,13 @@ CookAction = VillageAction(
 )
 
 HuntAction = VillageAction(
-    'hunt',
-    ActionChange(
+    name='hunt',
+    income=ActionChange(
         village={
             'food': 15,
         }
     ),
-    ActionChange(
+    outcome=ActionChange(
         village={
             'tools': 2
         },
@@ -80,13 +80,13 @@ HuntAction = VillageAction(
 )
 
 ForgeAction = VillageAction(
-    'forge',
-    ActionChange(
+    name='forge',
+    income=ActionChange(
         village={
             'tools': 5
         }
     ),
-    ActionChange(
+    outcome=ActionChange(
         village={
             'metal': 25
         },
@@ -97,14 +97,14 @@ ForgeAction = VillageAction(
 )
 
 MineAction = VillageAction(
-    'mine',
-    ActionChange(
+    name='mine',
+    income=ActionChange(
         village={
             'metal': 5,
             'stone': 15
         }
     ),
-    ActionChange(
+    outcome=ActionChange(
         village={
             'tools': 3
         },
@@ -115,13 +115,13 @@ MineAction = VillageAction(
 )
 
 GatherStoneAction = VillageAction(
-    'gather_stone',
-    ActionChange(
+    name='gather_stone',
+    income=ActionChange(
         village={
             'stone': 10
         }
     ),
-    ActionChange(
+    outcome=ActionChange(
         village={
             'tools': 2
         },
@@ -130,6 +130,24 @@ GatherStoneAction = VillageAction(
         }
     )
 )
+
+ChopWoodAction = VillageAction(
+    name='chop_wood',
+    income=ActionChange(
+        village={
+            'wood': 15
+        }
+    ),
+    outcome=ActionChange(
+        village={
+            'tools': 2
+        },
+        villager={
+            'energy': 50
+        }
+    )
+)
+
 
 
 VILLAGE_ACTIONS = [

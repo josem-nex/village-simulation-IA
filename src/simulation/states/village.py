@@ -1,5 +1,5 @@
 import random
-from .state import State
+from states.state import State
 
 
 class VillageState(State):    

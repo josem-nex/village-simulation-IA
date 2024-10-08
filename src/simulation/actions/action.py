@@ -12,10 +12,10 @@ class ActionChange:
         return self._villager
 
 class Action:
-    def __init__(self, name='', income=ActionChange(), outcome=ActionChange()) -> None:
+    def __init__(self, income: ActionChange = None, outcome:ActionChange=None, name='') -> None:
         self._name = name
-        self._income = income
-        self._outcome = outcome
+        self._income = income or ActionChange()
+        self._outcome = outcome or ActionChange()
 
     @property
     def name(self):
