@@ -1,6 +1,6 @@
 import random
 from experta import KnowledgeEngine, Rule, Fact, Field, DefFacts, OR, AS, L
-
+from actions import villager as actions
 class Task(Fact):
     name = Field(str, default='')
     energy = Field(int, default='')
@@ -19,15 +19,11 @@ class VillagerFact(Fact):
     mood = Field(str, default='')
     age = Field(str, default='')
 
-# define task cost in energy
-# define task outcomes
-# define task incomes
-# define task requirements
-# define task dependencies
 class VillagerAgent(KnowledgeEngine):
     def __init__(self, state):
         super().__init__()
         self.state = state
+        self.actions = []
 
     @DefFacts()
     def get_villager_facts(self):
@@ -39,32 +35,38 @@ class VillagerAgent(KnowledgeEngine):
     # personal tasks
     @Rule(OR(VillagerFact(hunger='hungry')) , VillagerFact(hunger='starving'))
     def eat(self):
-        print("Villager is eating.")
+        # print("Villager need eating.")
         # self.declare(Task(name='eat'))
+        self.actions.append(actions.EatTask)
 
     @Rule(VillagerFact(energy='exhausted'))
     def sleep(self):
-        print("Villager is sleeping.")
+        # print("Villager  sleeping.")
         # self.declare(Task(name='sleep'))
+        self.actions.append(actions.SleepTask)
 
     @Rule(VillagerFact(energy='tired'))
     def nap(self):
-        print("Villager is taking a nap.")
+        # print("Villager is taking a nap.")
         # self.declare(Task(name='nap'))
+        self.actions.append(actions.NapTask)
 
     @Rule(OR(VillagerFact(thirst='thirsty'), VillagerFact(thirst='dehidrated')))
     def drink(self):
-        print("Villager is drinking water.")
+        # print("Villager is drinking water.")
         # self.declare(Task(name='drink'))
+        self.actions.append(actions.DrinkTask)
 
     @Rule(OR(VillagerFact(mood='sad'), VillagerFact(mood='neutral')))
     def socialize(self):
-        print("Villager is socializing.")
+        # print("Villager is socializing.")
         # self.declare(Task(name='socialize'))
+        self.actions.append(actions.SocializeTask)
 
     @Rule(AS.fact << Fact())
     def unknown_task(self, fact):
-        print(f"Villager does not know what to do.")
+        # print(f"Villager does not know what to do.")
         # print(fact.values())
+        self.actions.append(actions.UnknownTask)
 
 

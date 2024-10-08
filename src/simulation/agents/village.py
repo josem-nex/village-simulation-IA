@@ -1,7 +1,7 @@
 import random
 from experta import KnowledgeEngine, Rule, Fact, Field, DefFacts, OR, AS, L
 
-from ..actions import village as actions
+from actions import village as actions
 
 class VillageFact(Fact):
     food = Field(str, default='')
@@ -74,6 +74,13 @@ class VillageAgent(KnowledgeEngine):
     def gather_stone(self):
         print("Village needs gathering stone.")  
         self.actions.append(actions.GatherStoneAction)  
+        
+    @Rule(OR(VillageFact(wood='low'), VillageFact(wood='depleted')))
+    def chop_wood(self):
+        print("Village needs chopping wood.")
+        self.actions.append(actions.ChopWoodAction)
+        
+    
 
     # @Rule(Task(name='build'))
     # def build(self):
