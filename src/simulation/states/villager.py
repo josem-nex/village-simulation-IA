@@ -14,6 +14,10 @@ class VillagerState(State):
             'gender': self.fuzzify_gender,
         }    
 
+    def apply_state_change(self, change):
+        for attribute in change.villager:
+            self.update_attribute(attribute, change.villager[attribute])
+
     def generate_random_state(self):
         return {
             'energy': random.randint(0, 100),

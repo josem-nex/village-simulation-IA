@@ -130,3 +130,15 @@ GatherStoneAction = VillageAction(
         }
     )
 )
+
+
+VILLAGE_ACTIONS = [
+    FarmAction,
+    GatherHerbsAction,
+    GatherWaterAction,
+    CookAction,
+    HuntAction,
+    ForgeAction,
+    MineAction,
+    GatherStoneAction
+]

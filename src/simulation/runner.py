@@ -30,6 +30,6 @@ class SimulationRunner:
             self.village.care_villagers()
             print('village is selecting a task sequence...')
             self.village.select_actions()
-            print("villagers recover from last day")
-            self.village.care_villagers()
+            # print("villagers recover from last day")
+            # self.village.care_villagers()
             yield self.env.timeout(1)

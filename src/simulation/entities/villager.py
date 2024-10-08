@@ -2,7 +2,8 @@ from ..states.villager import VillagerState
 from ..agents.villager import VillagerAgent
 
 class Villager:    
-    def __init__(self):
+    def __init__(self, name):
+        self.name = name
         self.state = VillagerState()
         self.agent = VillagerAgent(self.state)
 

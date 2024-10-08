@@ -11,9 +11,8 @@ class ActionChange:
     def villager(self):
         return self._villager
 
-
 class Action:
-    def __init__(self, name='', income={}, outcome={}) -> None:
+    def __init__(self, name='', income=ActionChange(), outcome=ActionChange()) -> None:
         self._name = name
         self._income = income
         self._outcome = outcome
