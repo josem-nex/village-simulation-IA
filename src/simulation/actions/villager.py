@@ -63,10 +63,15 @@ SocializeAction = VillagerAction(
     )
 )
 
+DefaultAction = VillagerAction(
+    'do_nothing'
+)
+
 VILLAGER_ACTIONS = [
     EatAction,
     SleepAction,
     NapAction,
     DrinkAction,
-    SocializeAction
+    SocializeAction,
+    DefaultAction
 ]

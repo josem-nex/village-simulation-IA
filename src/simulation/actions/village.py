@@ -1,4 +1,4 @@
-from actions.action import Action, ActionChange
+from src.simulation.actions.action import Action, ActionChange
 
 class VillageAction(Action):
     pass

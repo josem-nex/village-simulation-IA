@@ -1,7 +1,7 @@
 import simpy
 
 # from .agents import villager
-from entities.village import Village
+from src.simulation.entities.village import Village
 
 class SimulationRunner:
     def __init__(self, iterations):

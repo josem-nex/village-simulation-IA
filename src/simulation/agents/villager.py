@@ -1,6 +1,6 @@
 from experta import KnowledgeEngine, Rule, Fact, Field, DefFacts, OR, AS, L
-from actions import villager as actions
-from states.villager import VillagerState
+from src.simulation.actions import villager as actions
+from src.simulation.states.villager import VillagerState
 class Task(Fact):
     name = Field(str, default='')
     energy = Field(int, default='')
@@ -38,36 +38,36 @@ class VillagerAgent(KnowledgeEngine):
     def eat(self):
         # print("Villager need eating.")
         # self.declare(Task(name='eat'))
-        self.actions.append(actions.EatTask)
+        self.actions.append(actions.EatAction)
 
     @Rule(VillagerFact(energy='exhausted'))
     def sleep(self):
         # print("Villager  sleeping.")
         # self.declare(Task(name='sleep'))
-        self.actions.append(actions.SleepTask)
+        self.actions.append(actions.SleepAction)
 
     @Rule(VillagerFact(energy='tired'))
     def nap(self):
         # print("Villager is taking a nap.")
         # self.declare(Task(name='nap'))
-        self.actions.append(actions.NapTask)
+        self.actions.append(actions.NapAction)
 
     @Rule(OR(VillagerFact(thirst='thirsty'), VillagerFact(thirst='dehidrated')))
     def drink(self):
         # print("Villager is drinking water.")
         # self.declare(Task(name='drink'))
-        self.actions.append(actions.DrinkTask)
+        self.actions.append(actions.DrinkAction)
 
     @Rule(OR(VillagerFact(mood='sad'), VillagerFact(mood='neutral')))
     def socialize(self):
         # print("Villager is socializing.")
         # self.declare(Task(name='socialize'))
-        self.actions.append(actions.SocializeTask)
+        self.actions.append(actions.SocializeAction)
         
     @Rule(AS.fact << Fact())
     def unknown_task(self, fact):
         # print(f"Villager does not know what to do.")
         # print(fact.values())
-        self.actions.append(actions.UnknownTask)
+        self.actions.append(actions.DefaultAction)
 
 

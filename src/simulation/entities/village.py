@@ -1,14 +1,19 @@
-from states.village import VillageState
-from agents.village import VillageAgent
-from entities.villager import Villager
-from algorithms.genetic import genetic_algorithm
-from actions.villager import VillagerTask
+from src.simulation.states.village import VillageState
+from src.simulation.agents.village import VillageAgent
+from src.simulation.entities.villager import Villager
+from src.simulation.algorithms.genetic import genetic_algorithm
+from src.simulation.actions.villager import VillagerAction
+from src.simulation.actions.manager import ActionManager
+from src.simulation.knowledge.knowledge import KnowledgeBase
 
 class Village:
     def __init__(self, state=None, villagers=6):
+        self.action_manager = ActionManager()
         self.state = VillageState(state)
         self.agent = VillageAgent(self.state)
-        self.villagers = [Villager() for _ in range(villagers)]
+        self.knowledge = KnowledgeBase()
+
+        self.villagers = [Villager(f"Villager {i}") for i in range(villagers)]
         self.actions = []
         
     def add_villager(self, villager):
@@ -26,7 +31,7 @@ class Village:
             task = villager.select_task()
             self.execute_villager_task(villager, task,i)
             
-    def execute_villager_task(self, villager: Villager, task: VillagerTask,i):
+    def execute_villager_task(self, villager: Villager, task: VillagerAction,i):
         print(f"Villager {i} is {task.name}")
         for income in task.income.village:
             val = task.income.village[income]
@@ -47,30 +52,17 @@ class Village:
         return self.agent.actions
     
     def predict_action_revenue(self, action, villager):
-        return 1
+        return self.action_manager.predict_action(action, villager)
     
     def execute_action(self, action, villager):
-        result = 0
-
-        for attribute in action.income.village:
-            val = action.income.village[attribute]
-            self.state.update_attribute(attribute, val)
-            result += val
-        for attribute in action.income.villager:
-            val = action.income.villager[attribute]
-            villager.state.update_attribute(attribute, val)
-            result += val
-
-        for attribute in action.outcome.village:
-            val = action.outcome.village[attribute]
-            self.state.update_attribute(attribute, -val)
-            result -= val
-        for attribute in action.outcome.villager:
-            val = action.outcome.villager[attribute]
-            villager.state.update_attribute(attribute, -val)
-            result -= val
+        _, net_gain = self.action_manager.execute_action(
+            action, 
+            self, 
+            villager,
+            None # biome
+        )      
         
-        self.knowledge.update_village_knowledge(action.name, result)
+        self.knowledge.update_village_knowledge(action.name, net_gain)
 
     def execute_actions(self, actions):
         for i, action in enumerate(actions):
@@ -103,6 +95,6 @@ class Village:
             if knowledge == 0:
                 value += predicted
             else:
-                value += predicted * 100 / knowledge # which percent of knowledge avg represents prediction
+                value += predicted * knowledge # which percent of knowledge avg represents prediction
 
         return value
