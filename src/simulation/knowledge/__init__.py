@@ -1,0 +1,2 @@
+class VillageKnowledge:
+    pass

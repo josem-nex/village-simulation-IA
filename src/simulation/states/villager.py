@@ -1,5 +1,5 @@
 import random
-from states.state import State
+from src.simulation.states.state import State
 
 class VillagerState(State):    
     def __init__(self):
@@ -13,6 +13,10 @@ class VillagerState(State):
             'age': self.fuzzify_age,
             'gender': self.fuzzify_gender,
         }    
+
+    def apply_state_change(self, change):
+        for attribute in change.villager:
+            self.update_attribute(attribute, change.villager[attribute])
 
     def generate_random_state(self):
         return {
@@ -93,4 +97,4 @@ class VillagerState(State):
             return 'male'
         else:
             return 'female'
-
+        

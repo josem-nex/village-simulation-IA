@@ -1,3 +1,6 @@
+from src.simulation.actions.result import ACTION_RESULTS
+
+
 class ActionChange:
     def __init__(self, village={}, villager={}):
         self._village = village
@@ -10,13 +13,20 @@ class ActionChange:
     @property
     def villager(self):
         return self._villager
-
-
+    
 class Action:
-    def __init__(self, name='', income={}, outcome={}) -> None:
-        self._name = name
-        self._income = income
-        self._outcome = outcome
+    def __init__(
+        self, 
+        name='',
+        results=ACTION_RESULTS, 
+        income: ActionChange=None, 
+        outcome:ActionChange=None
+    ):
+        self._name = name        
+        self._results = results
+
+        self._income = income or ActionChange()
+        self._outcome = outcome or ActionChange()
 
     @property
     def name(self):
@@ -29,4 +39,8 @@ class Action:
     @property
     def outcome(self):
         return self._outcome
+    
+    @property
+    def results(self):
+        return self._results
     
