@@ -5,21 +5,21 @@ class VillagerAction(Action):
 
 EatAction = VillagerAction(
     'eat',
-    ActionChange(
+    income=ActionChange(
         villager={
-            'hunger': 20
+            'hunger': 30
         }
     ),
-    ActionChange(
+    outcome=ActionChange(
         village={
-            'food': 10
+            'food': 15
         }
     )
 )
 
 SleepAction = VillagerAction(
     'sleep',
-    ActionChange(
+    income=ActionChange(
         villager={
             'energy': 60
         }
@@ -28,7 +28,7 @@ SleepAction = VillagerAction(
 
 NapAction = VillagerAction(
     'nap',
-    ActionChange(
+    income=ActionChange(
         villager={
             'energy': 15
         }
@@ -37,28 +37,42 @@ NapAction = VillagerAction(
 
 DrinkAction = VillagerAction(
     'drink',
-    ActionChange(
+    income=ActionChange(
         villager={
-            'thirst': 20
+            'thirst': 30
         }
     ),
-    ActionChange(
+    outcome=ActionChange(
         village={
-            'water': 10
+            'water': 15
         }
     )
 )
 
 SocializeAction = VillagerAction(
     'socialize',
-    ActionChange(
+    income=ActionChange(
         villager={
             'mood': 15
         }
     ),
-    ActionChange(
+    outcome=ActionChange(
         villager={
-            'energy': 10
+            'energy': 30
+        }
+    )
+)
+
+GetPregnantAction = VillagerAction(
+    'get_pregnant',
+    income=ActionChange(
+        villager={
+            'mood': 15
+        }
+    ),
+    outcome=ActionChange(
+        villager={
+            'energy': 30,
         }
     )
 )

@@ -14,18 +14,41 @@ class VillagerState(State):
             'gender': self.fuzzify_gender,
         }    
 
+    def show_state(self):
+        for attribute in self.state:
+            if attribute == 'age':
+                print(f'{attribute} : ({self.get_attribute(attribute)}, {self.state[attribute] // (12*30)})')
+                continue
+            print(f'{attribute} : ({self.get_attribute(attribute)}, {self.state[attribute]})')
+
+    def update_attribute(self, attribute, value):
+        super().update_attribute(attribute, value)
+        
+        if attribute != 'age':
+                self._state[attribute] = max(0, self._state[attribute])
+                self._state[attribute] = min(100, self._state[attribute])
+
     def apply_state_change(self, change):
         for attribute in change.villager:
             self.update_attribute(attribute, change.villager[attribute])
 
     def generate_random_state(self):
+        # return {
+        #     'energy': random.randint(0, 100),
+        #     'hunger': random.randint(0, 100),
+        #     'thirst': random.randint(0, 100),
+        #     'health': random.randint(0, 100),
+        #     'mood': random.randint(0, 100),
+        #     'age': random.randint(0, 80) * 12*30,
+        #     'gender': random.randint(0, 1),
+        # }
         return {
-            'energy': random.randint(0, 100),
-            'hunger': random.randint(0, 100),
-            'thirst': random.randint(0, 100),
-            'health': random.randint(0, 100),
-            'mood': random.randint(0, 100),
-            'age': random.randint(0, 100),
+            'energy': 100,
+            'hunger': 100,
+            'thirst': 100,
+            'health': 100,
+            'mood': 100,
+            'age': random.randint(0, 50) * 12*30,
             'gender': random.randint(0, 1),
         }
 
@@ -83,7 +106,7 @@ class VillagerState(State):
             return 'happy'
 
     def fuzzify_age(self):
-        age = self.state['age']
+        age = self.state['age'] // (12*30)        
         if age < 18:
             return 'child'
         elif 18 <= age < 55:

@@ -1,13 +1,17 @@
 import random
 from src.simulation.states.state import State
+from src.simulation.actions.action import DailyVillagerChange
 
 
 class VillageState(State):    
-    def __init__(self, state=None):
-        self._state = self.generate_random_state()
+    def __init__(self, state=None, vilager_count=0):
+        self.villager_count = vilager_count
+        self._state = {}
         if state is not None:
             for attribute in state:
                 self._state[attribute] = state[attribute]
+        else:
+            self._state = self.generate_random_state()
 
         self._fuzzy_functions = {
             'food': self.fuzzify_resource,
@@ -20,26 +24,41 @@ class VillageState(State):
         }    
 
     def generate_random_state(self):
+        # return {
+        #     'food': random.randint(0, 100),
+        #     'wood': random.randint(0, 100),
+        #     'stone': random.randint(0, 100),
+        #     'water': random.randint(0, 100),
+        #     'herbs': random.randint(0, 100),
+        #     'metal': random.randint(0, 100),
+        #     'tools': random.randint(0, 100)
+        # }
         return {
-            'food': random.randint(0, 100),
-            'wood': random.randint(0, 100),
-            'stone': random.randint(0, 100),
-            'water': random.randint(0, 100),
-            'herbs': random.randint(0, 100),
-            'metal': random.randint(0, 100),
-            'tools': random.randint(0, 100)
+            'food': 50,
+            'wood': 50,
+            'stone': 50,
+            'water': 50,
+            'herbs': 50,
+            'metal': 50,
+            'tools': 50
         }
+    
+    def update_attribute(self, attribute, value):
+        super().update_attribute(attribute, value)
+        self._state[attribute] = max(0, self._state[attribute])
 
     def get_attribute(self, attribute):
         return self.fuzzy_functions[attribute](attribute)
     
     def fuzzify_resource(self, resource):
         res = self.state[resource]
-        if res < 5:
+        mult = 1 if self.villager_count == 0 else self.villager_count
+        low_threshold = abs(DailyVillagerChange.village[resource])*mult
+        if 0 < res < low_threshold:
             return 'depleted'
-        elif 10 <= res < 30:
+        elif low_threshold <= res < 3*low_threshold:
             return 'low'
-        elif 30 <= res < 70:
+        elif 3*low_threshold <= res < 7*low_threshold:
             return 'normal'
         else:
             return 'full'

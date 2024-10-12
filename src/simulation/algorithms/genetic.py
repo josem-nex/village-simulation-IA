@@ -3,8 +3,7 @@ import random
 def generate_random_individual(genes, length):
     return [random.choice(genes) for _ in range(length)]
 # Generates starting chromosome population sample from a given size and genes
-def generate_initial_population(size, length, genes):
-    
+def generate_initial_population(size, length, genes):    
     return [generate_random_individual(genes, length) for _ in range(size)] 
 
 # Given a list of scores it selects a pair of inidices of chromosomes to be parents 
@@ -62,7 +61,7 @@ def genetic_algorithm(
     scores = [fitness(individual) for individual in population]
     current_best = select_fittest(population, scores)
 
-    for i in range(generations):
+    for _ in range(generations):
         # Selects the parents for the new generation
         parents = [[population[i] for i in select_parents(scores)] for _ in range(pop_size // 2)]
 
