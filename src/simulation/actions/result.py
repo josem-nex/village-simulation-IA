@@ -14,7 +14,7 @@ class ActionResult:
     def get_modifier(self, income=True):
         return self._income_modifier if income else self._outcome_modifier
     
-    def get_xp():
+    def get_xp(self):
         return randint(0, 100)
     
     def is_positive(self):
