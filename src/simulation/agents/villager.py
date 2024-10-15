@@ -1,6 +1,6 @@
 from experta import KnowledgeEngine, Rule, Fact, Field, DefFacts, OR, AS, AND, NOT, L
-from src.simulation.actions import villager as actions
-from src.simulation.actions.manager import ActionManager
+from actions import villager as actions
+from actions.manager import ActionManager
 class Task(Fact):
     name = Field(str, default='')
     energy = Field(int, default='')

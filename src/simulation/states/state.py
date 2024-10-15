@@ -20,3 +20,7 @@ class State:
     
     def show_state(self):
         [print(f'{attribute} : ({self.get_attribute(attribute)}, {self.get_attribute_value(attribute)})') for attribute in self.state]
+
+    def get_state(self):
+        return [f'{attribute} : ({self.get_attribute(attribute)}, {self.get_attribute_value(attribute)})' for attribute in self.state]
+        

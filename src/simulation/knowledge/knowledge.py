@@ -1,5 +1,5 @@
-from ..actions.village import VILLAGE_ACTIONS
-from ..actions.villager import VILLAGER_ACTIONS
+from actions.village import VILLAGE_ACTIONS
+from actions.villager import VILLAGER_ACTIONS
 
 KEY_VILLAGE_ACTION = "village_action"
 KEY_VILLAGER_ACTION = "villager_action"

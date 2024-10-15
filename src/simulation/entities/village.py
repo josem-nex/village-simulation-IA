@@ -1,13 +1,13 @@
 import random
 
-from src.simulation.states.village import VillageState
-from src.simulation.agents.village import VillageAgent, VILLAGE_NEEDS
-from src.simulation.entities.villager import Villager
-from src.simulation.algorithms.genetic import genetic_algorithm
-from src.simulation.actions.villager import VillagerAction
-from src.simulation.actions.manager import ActionManager
-from src.simulation.knowledge.knowledge import KnowledgeBase
-from src.simulation.actions.action import DailyVillagerChange
+from states.village import VillageState
+from agents.village import VillageAgent, VILLAGE_NEEDS
+from entities.villager import Villager
+from algorithms.genetic import genetic_algorithm
+from actions.villager import VillagerAction
+from actions.manager import ActionManager
+from knowledge.knowledge import KnowledgeBase
+from actions.action import DailyVillagerChange
 
 class Village:
     def __init__(self, state=None, villagers=6):

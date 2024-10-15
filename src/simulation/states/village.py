@@ -1,6 +1,6 @@
 import random
-from src.simulation.states.state import State
-from src.simulation.actions.action import DailyVillagerChange
+from states.state import State
+from actions.action import DailyVillagerChange
 
 
 class VillageState(State):    
@@ -51,6 +51,7 @@ class VillageState(State):
         return self.fuzzy_functions[attribute](attribute)
     
     def fuzzify_resource(self, resource):
+        # TODO res == 0 ? empty 
         res = self.state[resource]
         mult = 1 if self.villager_count == 0 else self.villager_count
         low_threshold = abs(DailyVillagerChange.village[resource])*mult

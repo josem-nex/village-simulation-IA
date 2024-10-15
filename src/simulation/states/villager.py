@@ -1,5 +1,5 @@
 import random
-from src.simulation.states.state import State
+from states.state import State
 
 class VillagerState(State):    
     def __init__(self):

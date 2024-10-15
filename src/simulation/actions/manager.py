@@ -1,5 +1,5 @@
 import random
-from src.simulation.actions.village import VillageAction
+from actions.village import VillageAction
 
 class ActionManager:
     def __init__(self, village, biome=None):

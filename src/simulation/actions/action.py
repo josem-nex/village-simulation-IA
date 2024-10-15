@@ -1,4 +1,4 @@
-from src.simulation.actions.result import ACTION_RESULTS
+from actions.result import ACTION_RESULTS
 
 class ActionChange:
     def __init__(self, village={}, villager={}):

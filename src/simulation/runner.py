@@ -1,7 +1,9 @@
 import simpy
+import sys
 
 # from .agents import villager
-from src.simulation.entities.village import Village
+from entities.village import Village
+from VillageStatistics import VillageStatistics
 
 class SimulationRunner:
     def __init__(self, iterations):
@@ -18,6 +20,7 @@ class SimulationRunner:
         }
         self.village = Village(initial_state, villagers=5)
         # self.villager.state.show_state()
+        self.statistics = VillageStatistics()
 
     def run_simulation(self):
         print('Simulation started')
@@ -33,9 +36,13 @@ class SimulationRunner:
                 print('Village has no villagers left')
                 print(f"Day {self.env.now}")
                 return
+            print(f"Day {self.env.now}")
             # print("villagers prepares for new day")
             actions = self.village.select_actions()
             self.village.state.show_state()
+            
+            self.statistics.record(self.env.now, self.village.state.get_state(), self.village.state.villager_count)
+            
             self.village.execute_actions(actions)
             
             self.village.apply_daily_cost()
@@ -47,5 +54,25 @@ class SimulationRunner:
             # self.village.care_villagers()
             yield self.env.timeout(1)
 
-# s = SimulationRunner(5)
-# s.run_simulation()
+
+
+original_stdout = sys.stdout
+
+stats= None
+
+with open('output.txt', 'w') as f:
+    sys.stdout = f
+    s = SimulationRunner(100)
+    s.run_simulation()
+    
+    print("--------------------")
+    for d in s.statistics.data:
+        print(d)
+    sys.stdout = original_stdout
+    
+    stats = s.statistics
+
+stats.analyze()
+    
+    
+

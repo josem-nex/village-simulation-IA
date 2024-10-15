@@ -1,10 +1,10 @@
 import random
 from math import log10
 
-from src.simulation.states.villager import VillagerState
-from src.simulation.agents.villager import VillagerAgent
-from src.simulation.actions import villager as actions
-from src.simulation.actions.village import VILLAGE_ACTIONS
+from states.villager import VillagerState
+from agents.villager import VillagerAgent
+from actions import villager as actions
+from actions.village import VILLAGE_ACTIONS
 
 
 VILLAGER_STATUS = [
