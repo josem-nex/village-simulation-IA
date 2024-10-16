@@ -1,0 +1,6 @@
+Given the following series of statistical data from a village simulation:
+
+{ $statistics_data }
+
+Interpret the events that occurred throughout the iterations of the simulation. Explain how the key resources (food, wood, water, herbs, stones, tools, and metals) and the village population have changed over time. Highlight critical moments where a specific resource began to deplete or ran out, and how this affected the survival and well-being of the village. Also, mention if there are recurring patterns or significant events that triggered the decline or recovery of certain resources, as well as the possible cause of the villagers' deaths."
+

@@ -31,8 +31,10 @@ class SimulationRunner:
         self.env.run(until=self.iterations)
         print(f"end village count: {len(self.village.villagers)}")
         self.village.state.show_state()
+        if self.village.state.villager_count == 0:
+            print('Village has no villagers left')
+            return
         self.statistics.record(self.env.now, self.village.state.get_state(), self.village.state.villager_count)
-
     def village_process(self, name, arrival_time, service_time):
         while True:
             if (len(self.village.villagers) == 0):
@@ -78,24 +80,5 @@ class SimulationRunner:
             yield self.env.timeout(1)
 
 
-
-original_stdout = sys.stdout
-
-stats= None
-
-with open('output.txt', 'w') as f:
-    sys.stdout = f
-    s = SimulationRunner(100)
-    s.run_simulation()
-    
-    print("--------------------")
-    for d in s.statistics.data:
-        print(d)
-    sys.stdout = original_stdout
-    
-    stats = s.statistics
-
-stats.analyze()
-    
     
 
