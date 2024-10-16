@@ -18,6 +18,7 @@ class Village:
 
         self.villagers = [Villager(f"Villager {i}", self.action_manager) for i in range(villagers)]
         self.actions = []
+        self.needs = []
         
     def add_villager(self, villager):
         self.villagers.append(villager)
@@ -36,17 +37,19 @@ class Village:
             task = villager.select_task()
             # self.execute_villager_task(villager, task,i)
             
-    def execute_villager_task(self, villager: Villager, task: VillagerAction,i):
+    def execute_villager_task(self, villager: Villager, task: VillagerAction):
         # print(f"Villager {i} is {task.name}")
         self.action_manager.execute_action(task, villager)
     
     def infer_actions(self):
         self.agent.reset()
         self.agent.run()
-        return self.agent.actions
+        
+        self.actions = self.agent.actions
+        self.needs = self.agent.needs
     
-    def predict_action_revenue(self, action, villager):
-        return self.action_manager.predict_action(action, villager)
+    def predict_action_revenue(self, action, villager, priority=1):
+        return self.action_manager.predict_action(action, villager, priority)
     
     def execute_action(self, action, villager):
         _, net_gain = self.action_manager.execute_action(action, villager)              
@@ -60,7 +63,11 @@ class Village:
         if len(self.villagers) == 0:
             return []
         
-        inferred_actions = self.infer_actions()
+        self.infer_actions()
+        inferred_actions = self.actions
+
+        print([x.name for x in inferred_actions])
+        print(self.needs)
 
         if len(self.villagers) > 1:
             best_sequence = genetic_algorithm(
@@ -88,7 +95,7 @@ class Village:
             # villager and village states
             # villager_state_copy = self.villagers[i].state
 
-            predicted = self.predict_action_revenue(action, self.villagers[i])
+            predicted = self.predict_action_revenue(action, self.villagers[i], self.needs[self.actions.index(action)])
             knowledge = self.knowledge.get_village_knowledge(action.name)
 
             if not self.action_manager.can_execute_action(action, self.villagers[i]):
@@ -111,10 +118,12 @@ class Village:
             villager.check_vital_signs()
 
             if 'DYING' in villager.status:
-                print(f"Villager {villager.name} has died")
-                villager.state.show_state()
-                self.remove_villager(villager)
-                continue
+                dead_prob = random.randint(0, 1)
+                if dead_prob >= 0.7:
+                    print(f"Villager {villager.name} has died")
+                    villager.state.show_state()
+                    self.remove_villager(villager)
+                    continue
 
             if 'PREGNANT' in villager.status:
                 print(f"Villager {villager.name} is pregnant")

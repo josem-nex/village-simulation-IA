@@ -1,5 +1,6 @@
 import simpy
 import sys
+import random
 
 # from .agents import villager
 from entities.village import Village
@@ -9,14 +10,15 @@ class SimulationRunner:
     def __init__(self, iterations):
         self.env = simpy.Environment()
         self.iterations = iterations
+        villager_count = 8
         initial_state = {
-            "food": 50,
-            "wood": 40,
-            "water": 20,
-            "herbs": 5,
-            "stone": 10,
-            "tools": 3,
-            "metal": 0
+            "food": 100*villager_count,
+            "wood": 100*villager_count,
+            "water": 100*villager_count,
+            "herbs": 100*villager_count,
+            "stone": 50,
+            "tools": 50,
+            "metal": 50
         }
         self.village = Village(initial_state, villagers=5)
         # self.villager.state.show_state()
@@ -38,16 +40,36 @@ class SimulationRunner:
                 return
             print(f"Day {self.env.now}")
             # print("villagers prepares for new day")
-            actions = self.village.select_actions()
+            self.village.care_villagers()
+            best = self.village.select_actions()
+            actions = self.village.actions
+
+            for i, _ in enumerate(self.village.villagers):
+                rand = random.randint(0, 1)
+                if rand >= 0.75:
+                    for action in actions:
+                        new = best
+                        new[i] = action
+
+                        new_value = self.village.actions_fitness(new)
+                        best_value = self.village.actions_fitness(best)
+
+                        if new_value > best_value:
+                            best = new
+                            print(f"Villager {i} has selected a new action: {action.name}")
+                            break
+
             self.village.state.show_state()
-            
+
             self.statistics.record(self.env.now, self.village.state.get_state(), self.village.state.villager_count)
             
-            self.village.execute_actions(actions)
+            print("Actions to execute: ")
+            print([x.name for x in best])
+            self.village.execute_actions(best)
             
-            self.village.apply_daily_cost()
             self.village.check_villagers_status()
             self.village.care_villagers()
+            self.village.apply_daily_cost()
             # print('village is selecting a task sequence...')
             # self.village.state.show_state()
             # print("villagers recover from last day")

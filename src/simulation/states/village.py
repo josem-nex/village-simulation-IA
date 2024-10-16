@@ -51,7 +51,6 @@ class VillageState(State):
         return self.fuzzy_functions[attribute](attribute)
     
     def fuzzify_resource(self, resource):
-        # TODO res == 0 ? empty 
         res = self.state[resource]
         mult = 1 if self.villager_count == 0 else self.villager_count
         low_threshold = abs(DailyVillagerChange.village[resource])*mult
@@ -60,6 +59,6 @@ class VillageState(State):
         elif low_threshold <= res < 3*low_threshold:
             return 'low'
         elif 3*low_threshold <= res < 7*low_threshold:
-            return 'normal'
+            return 'normal'            
         else:
-            return 'full'
+            return 'depleted' if res == 0 else 'full'

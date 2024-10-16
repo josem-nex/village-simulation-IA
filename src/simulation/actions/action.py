@@ -55,7 +55,7 @@ DailyVillagerChange = ActionChange(
         'water': 10,
         'wood': 0,
         'stone': 0,
-        'herbs': 0,
+        'herbs': 5,
         'metal': 0,
         'tools': 0
     },
@@ -63,7 +63,7 @@ DailyVillagerChange = ActionChange(
         'energy': -10,
         'hunger': -10,
         'thirst': -10,
-        'mood': -15,
+        'mood': -10,
         'age': 1,
         'health': -5
     }

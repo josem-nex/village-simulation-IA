@@ -18,47 +18,62 @@ class ActionManager:
                 return False
 
         return True
+    
+    def get_action_net(self, action, villager, result, priority=1, update=False):
+        income_mod = result.get_modifier()
+        outcome_mod = result.get_modifier(False)
 
-    def execute_action(self, action, villager):
+        net_gain = 0
+
+        for attribute in action.income.village:
+            val = action.income.village[attribute] * income_mod * priority
+            if (update):
+                self.village.state.update_attribute(attribute, val)
+            net_gain += val
+        
+        for attribute in action.income.villager:
+            val = action.income.villager[attribute] * income_mod * priority
+            if (update):
+                villager.state.update_attribute(attribute, val) 
+
+        for attribute in action.outcome.village:
+            val = action.outcome.village[attribute] * outcome_mod
+            if (update):
+                self.village.state.update_attribute(attribute, -val)
+            net_gain -= val
+
+        for attribute in action.outcome.villager:
+            val = action.outcome.villager[attribute] * outcome_mod
+            if (update):
+                villager.state.update_attribute(attribute, -val)
+
+        if isinstance(action, VillageAction):
+            if (update):
+                villager.update_mastery(action, result.get_xp())
+
+        return net_gain
+
+    def execute_action(self, action, villager, priority=1):
         if isinstance(action, VillageAction):
             mastery = villager.get_mastery(action)
             weighted_mastery = [mastery * result.weight if result.is_positive() else 1 / mastery * result.weight for result in action.results]
             result = random.choices(action.results, weighted_mastery)[0]
         else:
             result = random.choices(action.results, [result.weight for result in action.results])[0]
-        net_gain = 0
 
-        income_mod = result.get_modifier()
-        outcome_mod = result.get_modifier(False)
-
-        for attribute in action.income.village:
-            val = action.income.village[attribute] * income_mod
-            self.village.state.update_attribute(attribute, val)
-            net_gain += val
-        
-        for attribute in action.income.villager:
-            val = action.income.villager[attribute] * income_mod
-            villager.state.update_attribute(attribute, val) 
-
-        for attribute in action.outcome.village:
-            val = action.outcome.village[attribute] * outcome_mod
-            self.village.state.update_attribute(attribute, -val)
-            net_gain -= val
-
-        for attribute in action.outcome.villager:
-            val = action.outcome.villager[attribute] * outcome_mod
-            villager.state.update_attribute(attribute, -val)
-
-        if isinstance(action, VillageAction):
-            villager.update_mastery(action, result.get_xp())
+        net_gain = self.get_action_net(action, villager, result, priority, True)
         
         return result, net_gain
 
 
-    def predict_action(self, action, villager):
+    def predict_action(self, action, villager, priority=1):
         mastery = villager.get_mastery(action)
         weighted_mastery = [mastery * result.weight if result.is_positive() else 1 / mastery * result.weight for result in action.results]
         result = random.choices(action.results, weighted_mastery)[0]
 
-        return 1 if result.is_positive() else -1
+        net_gain = self.get_action_net(action, villager, result, priority)
+        
+        # return net_gain if result.is_positive() else 0
+
+        return net_gain
     

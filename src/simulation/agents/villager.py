@@ -21,6 +21,9 @@ class VillagerFact(Fact):
     age = Field(str, default='')
     gender = Field(str, default='')
 
+class VillagerNeed(Fact):
+    need = Field(str, default='')
+
 class VillagerAgent(KnowledgeEngine):
     def __init__(self, villager, manager: ActionManager):
         super().__init__()
@@ -38,7 +41,36 @@ class VillagerAgent(KnowledgeEngine):
     # TODO: add needs as facts redefinition and then execute tasks given those needs
     
     # personal tasks
-    @Rule(OR(VillagerFact(hunger='hungry'), VillagerFact(hunger='starving')), salience=1)
+
+    @Rule(OR(VillagerFact(health='injured'), VillagerFact(health='sick')))
+    def need_heal(self):
+        self.declare(VillagerNeed(need='health'))
+
+    @Rule(OR(VillagerFact(hunger='hungry'), VillagerFact(hunger='starving')))
+    def need_food(self):
+        self.declare(VillagerNeed(need='hunger'))
+    
+    @Rule(OR(VillagerFact(thirst='thirsty'), VillagerFact(thirst='dehidrated')))
+    def need_water(self):
+        self.declare(VillagerNeed(need='thirst'))
+
+    @Rule(OR(VillagerFact(mood='sad'), VillagerFact(mood='neutral')))
+    def need_socialize(self):
+        self.declare(VillagerNeed(need='mood'))
+
+    @Rule(OR(VillagerFact(energy='exhausted'), VillagerFact(energy='tired')))
+    def need_sleep(self):
+        self.declare(VillagerNeed(need='sleep'))
+
+    @Rule(VillagerNeed(need='health'), salience=10)
+    def heal(self):
+        # self.declare(Task(name='heal'))
+        if self.manager.can_execute_action(actions.HealAction, self.villager):
+            print("Villager is healing.")
+            self.manager.execute_action(actions.HealAction, self.villager)
+            # self.reset()
+
+    @Rule(VillagerNeed(need='hunger'), salience=10)
     def eat(self):
         # TODO: villager is not eating
         # self.declare(Task(name='eat'))
@@ -48,7 +80,7 @@ class VillagerAgent(KnowledgeEngine):
             self.manager.execute_action(actions.EatAction, self.villager)
             # self.reset() #TODO: avoid use reset
 
-    @Rule(VillagerFact(energy='exhausted'), salience=2)
+    @Rule(VillagerNeed(need='sleep'), salience=9)
     def sleep(self):
         print("Villager  sleeping.")
         # self.declare(Task(name='sleep'))
@@ -56,7 +88,7 @@ class VillagerAgent(KnowledgeEngine):
             self.manager.execute_action(actions.SleepAction, self.villager)
             # self.reset()
 
-    @Rule(VillagerFact(energy='tired'), salience=3)
+    @Rule(VillagerNeed(need='sleep'), salience=8)
     def nap(self):
         # self.declare(Task(name='nap'))
         if self.manager.can_execute_action(actions.NapAction, self.villager):
@@ -64,7 +96,7 @@ class VillagerAgent(KnowledgeEngine):
             self.manager.execute_action(actions.NapAction, self.villager)
             # self.reset()
 
-    @Rule(OR(VillagerFact(thirst='thirsty'), VillagerFact(thirst='dehidrated')), salience=1)
+    @Rule(VillagerNeed(need='thirst'), salience=10)
     def drink(self):
         # self.declare(Task(name='drink'))
         if self.manager.can_execute_action(actions.DrinkAction, self.villager):
@@ -72,7 +104,7 @@ class VillagerAgent(KnowledgeEngine):
             self.manager.execute_action(actions.DrinkAction, self.villager)
             # self.reset()
 
-    @Rule(OR(VillagerFact(mood='sad'), VillagerFact(mood='neutral')), salience=3)
+    @Rule(VillagerNeed(need='mood'), salience=8)
     def socialize(self):
         # self.declare(Task(name='socialize'))
         if self.manager.can_execute_action(actions.SocializeAction, self.villager):
@@ -80,17 +112,17 @@ class VillagerAgent(KnowledgeEngine):
             self.manager.execute_action(actions.SocializeAction, self.villager)
             # self.reset()
 
-    @Rule(AND(NOT(VillagerFact(age='child')), NOT(VillagerFact(age='elder')), VillagerFact(mood='happy'), VillagerFact(sex='female')), salience=4)
+    @Rule(AND(NOT(VillagerFact(age='child')), NOT(VillagerFact(age='elder')), VillagerFact(mood='happy'), VillagerFact(sex='female')), salience=7)
     def get_pregnant(self):
         if self.manager.can_execute_action(actions.GetPregnantAction, self.villager):
             self.manager.execute_action(actions.GetPregnantAction, self.villager)
             self.villager.status.append('PREGNANT')
             # self.reset()
                 
-    @Rule(AS.fact << Fact())
-    def unknown_task(self, fact):
-        print(f"Villager does not know what to do.")
-        # print(fact.values())
-        self.manager.execute_action(actions.DefaultAction, self.villager)
+    # @Rule(AS.fact << Fact())
+    # def unknown_task(self, fact):
+    #     print(f"Villager does not know what to do.")
+    #     # print(fact.values())
+    #     self.manager.execute_action(actions.DefaultAction, self.villager)
 
 

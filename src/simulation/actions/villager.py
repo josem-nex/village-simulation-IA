@@ -77,6 +77,20 @@ GetPregnantAction = VillagerAction(
     )
 )
 
+HealAction = VillagerAction(
+    'heal',
+    income=ActionChange(
+        villager={
+            'health': 10
+        }
+    ),
+    outcome=ActionChange(
+        village={
+            'herbs': 10
+        }
+    )
+)
+
 DefaultAction = VillagerAction(
     'do_nothing'
 )
@@ -87,5 +101,6 @@ VILLAGER_ACTIONS = [
     NapAction,
     DrinkAction,
     SocializeAction,
-    DefaultAction
+    DefaultAction,
+    HealAction
 ]

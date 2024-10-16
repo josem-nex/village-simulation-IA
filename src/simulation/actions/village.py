@@ -7,12 +7,12 @@ FarmAction = VillageAction(
     name='farm', 
     income=ActionChange(
         village={
-            'food': 15
+            'food': 30
         }
     ),
     outcome=ActionChange(
         villager={
-            'energy': 30
+            'energy': 40
         }
     ),
     need='food'
@@ -22,7 +22,7 @@ GatherHerbsAction = VillageAction(
     name='gather_herbs',
     income=ActionChange(
         village={
-            'herbs': 8
+            'herbs': 40
         }
     ),
     outcome=ActionChange(
@@ -37,7 +37,7 @@ GatherFoodAction = VillageAction(
     name='gather_food',
     income=ActionChange(
         village={
-            'food': 10
+            'food': 20
         }
     ),
     outcome=ActionChange(
@@ -52,12 +52,12 @@ GatherWaterAction = VillageAction(
     name='gather_water',
     income=ActionChange(
         village={
-            'water': 15
+            'water': 40
         }
     ),
     outcome=ActionChange(
         villager={
-            'energy': 30
+            'energy': 40
         }
     ),
     need='water'
@@ -86,12 +86,12 @@ HuntAction = VillageAction(
     name='hunt',
     income=ActionChange(
         village={
-            'food': 15,
+            'food': 30,
         }
     ),
     outcome=ActionChange(
         village={
-            'tools': 4
+            'tools': 5
         },
         villager={
             'energy': 60,            
@@ -178,7 +178,7 @@ VILLAGE_ACTIONS = [
     GatherHerbsAction,
     GatherFoodAction,
     GatherWaterAction,
-    CookAction,
+    # CookAction,
     HuntAction,
     ForgeAction,
     MineAction,
