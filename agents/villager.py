@@ -1,6 +1,10 @@
 from experta import KnowledgeEngine, Rule, Fact, Field, DefFacts, OR, AS, AND, NOT, L
 from actions import villager as actions
 from actions.manager import ActionManager
+from actions.action import Action, ActionChange
+from actions.villager import VillagerAction
+from gpt.gptAPI import clientOpenAI
+
 class Task(Fact):
     name = Field(str, default='')
     energy = Field(int, default='')
@@ -30,6 +34,7 @@ class VillagerAgent(KnowledgeEngine):
         self.villager = villager
         self.actions = []
         self.manager = manager
+        self.gpt : clientOpenAI = clientOpenAI()
 
     @DefFacts()
     def get_villager_facts(self):
@@ -37,10 +42,6 @@ class VillagerAgent(KnowledgeEngine):
         for attribute in self.villager.state.get_attributes():
             state[attribute] = self.villager.state.get_attribute(attribute)
         yield VillagerFact(**state)
-
-    # TODO: add needs as facts redefinition and then execute tasks given those needs
-    
-    # personal tasks
 
     @Rule(OR(VillagerFact(health='injured'), VillagerFact(health='sick')))
     def need_heal(self):
@@ -53,7 +54,7 @@ class VillagerAgent(KnowledgeEngine):
     @Rule(OR(VillagerFact(thirst='thirsty'), VillagerFact(thirst='dehidrated')))
     def need_water(self):
         self.declare(VillagerNeed(need='thirst'))
-
+        
     @Rule(OR(VillagerFact(mood='sad'), VillagerFact(mood='neutral')))
     def need_socialize(self):
         self.declare(VillagerNeed(need='mood'))
@@ -61,6 +62,10 @@ class VillagerAgent(KnowledgeEngine):
     @Rule(OR(VillagerFact(energy='exhausted'), VillagerFact(energy='tired')))
     def need_sleep(self):
         self.declare(VillagerNeed(need='sleep'))
+        
+    @Rule(AND(NOT(VillagerFact(age='child')), NOT(VillagerFact(age='elder')), NOT(VillagerFact(hunger='starving')), NOT(VillagerFact(health='sick')), NOT(VillagerFact(health='injured')), NOT(VillagerFact(energy='exhausted')), NOT(VillagerFact(thirst='dehidrated')), NOT(VillagerFact(mood='sad'))))
+    def gpt_suggest(self):
+        self.declare(VillagerNeed(need='unknown'))
 
     @Rule(VillagerNeed(need='health'), salience=10)
     def heal(self):
@@ -72,8 +77,6 @@ class VillagerAgent(KnowledgeEngine):
 
     @Rule(VillagerNeed(need='hunger'), salience=10)
     def eat(self):
-        # TODO: villager is not eating
-        # self.declare(Task(name='eat'))
         print("Villager need eating.")
         if self.manager.can_execute_action(actions.EatAction, self.villager):
             print("villager is eating")
@@ -119,10 +122,34 @@ class VillagerAgent(KnowledgeEngine):
             self.villager.status.append('PREGNANT')
             # self.reset()
                 
-    # @Rule(AS.fact << Fact())
-    # def unknown_task(self, fact):
     #     print(f"Villager does not know what to do.")
     #     # print(fact.values())
     #     self.manager.execute_action(actions.DefaultAction, self.villager)
 
+    # @Rule(AS.fact << Fact())
+    # @Rule(NOT(VillagerNeed()))
+    @Rule(VillagerNeed(need='unknown'))
+    def unknown_task(self):
+        print("-------------------------------------------")
+        print("ChatGPT suggestions.")
+
+        villager_state = {}
+        for attribute in self.villager.state.get_attributes():
+            villager_state[attribute] = self.villager.state.get_attribute(attribute)
+
+        suggested_task = self.gpt.villager_prompt(villager_state)
+        try:
+            newtask = VillagerAction(
+                name=suggested_task['name'],
+                income=ActionChange(**suggested_task['income']),
+                outcome=ActionChange(**suggested_task['outcome'])
+            )
+
+            if self.manager.can_execute_action(newtask, self.villager):
+                self.manager.execute_action(newtask, self.villager)
+                print("Villager is doing the suggested task: ", newtask.name)
+        except:
+            print("ChatGPT not able to suggest a task.")
+        
+        print("-------------------------------------------")
 

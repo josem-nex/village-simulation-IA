@@ -1,0 +1,71 @@
+You are an intelligent assistant helping to simulate a villager's life in a medieval village. Given the following state of the villager and the actual possible actions, please generate a new task that the villager can perform. The new task must not repeat any of the tasks provided.
+
+Villager's state: $villager_state
+
+Existing actions the villager can perform:
+1. EatAction - Increases hunger, decreases village food.
+2. SleepAction - Increases energy.
+3. NapAction - Slightly increases energy.
+4. DrinkAction - Increases thirst, decreases village water.
+5. SocializeAction - Increases mood, decreases villager energy.
+6. GetPregnantAction - Increases mood, decreases villager energy.
+7. HealAction - Increases health, decreases village herbs.
+8. DefaultAction - Do nothing.
+
+Your task is to suggest a **new task** in **JSON format**. The new task should have the following structure:
+{
+    "name": "...",  # Name of the new task
+    "income": {
+        "villager": {
+            "...": ...  # What the villager gains from the task
+        },
+        "village": {
+            "...": ...  # What the village gains from the task (if any)
+        }
+    },
+    "outcome": {
+        "villager": {
+            "...": ...  # What the villager loses from the task (if any)
+        },
+        "village": {
+            "...": ...  # What the village loses from the task (if any)
+        }
+    }
+}
+
+Possible values for "villager" fields:
+- hunger, energy, mood, health, thirst
+
+Possible values for "village" fields:
+- food, water, herbs, stone, tools, metal
+
+**Important constraints:**
+- The task you generate must **not** be a repetition of any existing tasks listed above.
+- All positives numeric values for "villager" and "village" fields must be **positives integers between 0 and 50**.
+- The new task should prioritize improving the villager's **most critical needs** (e.g., hunger, thirst, energy, health, or mood) based on their current state.
+
+Example 1 output:
+{
+    name: 'eat',
+    income: {
+        villager: {
+            'hunger': 30
+        }
+    },
+    outcome: {
+        village: {
+            'food': 15
+        }
+    }
+}
+
+Example 2 output:
+{
+    name: 'sleep',
+    income: {
+        villager: {
+            'energy': 60
+        }
+    },
+    outcome: {}
+}

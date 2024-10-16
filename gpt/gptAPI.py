@@ -1,6 +1,7 @@
 from openai import OpenAI
 from typing import Dict
 from string import Template
+import json
 import os
 
 current_dir = os.path.dirname(__file__)
@@ -60,3 +61,35 @@ class clientOpenAI:
     def load_text_from_txt(self, file_path):
         with open(file_path, "r") as f:
             return f.read()
+        
+    def villager_prompt(self, villager_state):
+        prompt = self.prompts["villager_prompt.txt"]
+        prompt = Template(prompt)
+        data_to_replace = {"villager_state": villager_state}
+        prompt = prompt.substitute(data_to_replace)
+        
+        return self.call_gpt_json(prompt)
+    
+    def call_gpt_json(self, prompt):
+        respons = self.client.chat.completions.create(
+            model="gpt-3.5-turbo",
+            messages=[
+                {
+                    "role": "system",
+                    "content": "You are a helpful assistant.",
+                },
+                {
+                    "role": "user",
+                    "content": prompt,
+                },
+            ],
+            # max_tokens=100,
+            # temperature=0.3,
+            response_format= { "type": "json_object" }
+        ).choices[0].message.content
+        
+        try:
+            return json.loads(respons)
+        except:
+            return Exception("Error parsing JSON")
+        

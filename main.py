@@ -18,6 +18,7 @@ def main():
         stats = s.statistics
 
     # stats.analyze()
+    stats.generate_plots()
     
     gpt = clientOpenAI()
     a = gpt.output_prompt(stats.get_statistics())
