@@ -53,11 +53,11 @@ DailyVillagerChange = ActionChange(
     village={
         'food': 10,
         'water': 10,
-        'wood': 0,
-        'stone': 0,
-        'herbs': 5,
-        'metal': 0,
-        'tools': 0
+        'wood': 5,
+        'stone': 5,
+        'herbs': 10,
+        'metal': 5,
+        'tools': 5
     },
     villager={
         'energy': -10,

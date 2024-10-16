@@ -10,7 +10,7 @@ class SimulationRunner:
     def __init__(self, iterations):
         self.env = simpy.Environment()
         self.iterations = iterations
-        villager_count = 8
+        villager_count = 10
         initial_state = {
             "food": 100*villager_count,
             "wood": 100*villager_count,
@@ -20,7 +20,7 @@ class SimulationRunner:
             "tools": 50,
             "metal": 50
         }
-        self.village = Village(initial_state, villagers=5)
+        self.village = Village(initial_state, villagers=villager_count)
         # self.villager.state.show_state()
         self.statistics = VillageStatistics()
 
@@ -31,6 +31,7 @@ class SimulationRunner:
         self.env.run(until=self.iterations)
         print(f"end village count: {len(self.village.villagers)}")
         self.village.state.show_state()
+        self.statistics.record(self.env.now, self.village.state.get_state(), self.village.state.villager_count)
 
     def village_process(self, name, arrival_time, service_time):
         while True:
@@ -67,8 +68,8 @@ class SimulationRunner:
             print([x.name for x in best])
             self.village.execute_actions(best)
             
-            self.village.check_villagers_status()
             self.village.care_villagers()
+            self.village.check_villagers_status()
             self.village.apply_daily_cost()
             # print('village is selecting a task sequence...')
             # self.village.state.show_state()
