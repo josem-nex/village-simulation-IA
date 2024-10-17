@@ -1,0 +1,5660 @@
+Simulation started
+start villager count: 10
+Day 0
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherWaterAction
+-------------------------------------------
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  WorkAction
+-------------------------------------------
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherWaterAction
+-------------------------------------------
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherHerbsAction
+-------------------------------------------
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherHerbsAction
+-------------------------------------------
+{'food': 'full', 'wood': 'full', 'water': 'full', 'herbs': 'full', 'stone': 'low', 'tools': 'low', 'metal': 'low'}
+Village needs metal
+Village needs stone
+Village needs tools
+['forge', 'mine', 'gather_stone', 'mine']
+[1, 1, 1, 1]
+['gather_stone', 'gather_stone', 'mine', 'mine', 'mine', 'mine', 'mine', 'forge', 'mine', 'mine']
+Villager 2 has selected a new action: forge
+Villager 3 has selected a new action: forge
+Villager 4 has selected a new action: forge
+Villager 5 has selected a new action: mine
+Villager 6 has selected a new action: mine
+Villager 8 has selected a new action: forge
+Villager 9 has selected a new action: forge
+food : (full, 1000)
+wood : (full, 1000)
+water : (full, 1010)
+herbs : (full, 1027.5)
+stone : (low, 50)
+tools : (low, 50)
+metal : (low, 50)
+Actions to execute: 
+['gather_stone', 'gather_stone', 'forge', 'forge', 'forge', 'mine', 'mine', 'forge', 'forge', 'forge']
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherFirewoodAction
+-------------------------------------------
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherHerbsAction
+-------------------------------------------
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherBerriesAction
+-------------------------------------------
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  Gather Firewood
+-------------------------------------------
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherWaterAction
+-------------------------------------------
+Day 1
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherWoodAction
+-------------------------------------------
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherWaterAction
+-------------------------------------------
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherWaterAction
+-------------------------------------------
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherWaterAction
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherHerbsAction
+-------------------------------------------
+{'food': 'full', 'wood': 'full', 'water': 'full', 'herbs': 'full', 'stone': 'low', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs metal
+Village needs stone
+Village needs tools
+['forge', 'mine', 'gather_stone', 'mine']
+[1, 1, 1, 1]
+['mine', 'mine', 'forge', 'mine', 'forge', 'gather_stone', 'forge', 'forge', 'forge', 'mine']
+Villager 2 has selected a new action: forge
+Villager 4 has selected a new action: forge
+Villager 7 has selected a new action: mine
+Villager 9 has selected a new action: mine
+food : (full, 1010)
+wood : (full, 1060.0)
+water : (full, 1045)
+herbs : (full, 1027.5)
+stone : (low, 60.5)
+tools : (depleted, 47.5)
+metal : (depleted, 0)
+Actions to execute: 
+['mine', 'mine', 'forge', 'mine', 'forge', 'gather_stone', 'mine', 'mine', 'forge', 'mine']
+Villager  sleeping.
+Villager is taking a nap.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherBerriesAction
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Day 2
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherWaterAction
+-------------------------------------------
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherHerbsAction
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherFirewoodAction
+-------------------------------------------
+{'food': 'full', 'wood': 'full', 'water': 'full', 'herbs': 'full', 'stone': 'low', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs metal
+Village needs stone
+Village needs tools
+['forge', 'mine', 'gather_stone', 'mine']
+[1, 1, 1, 1]
+['gather_stone', 'forge', 'gather_stone', 'gather_stone', 'forge', 'mine', 'forge', 'mine', 'gather_stone', 'gather_stone']
+Villager 0 has selected a new action: mine
+Villager 1 has selected a new action: forge
+Villager 2 has selected a new action: forge
+Villager 4 has selected a new action: gather_stone
+Villager 5 has selected a new action: mine
+Villager 6 has selected a new action: mine
+Villager 9 has selected a new action: mine
+food : (full, 1020)
+wood : (full, 1060.0)
+water : (full, 1055)
+herbs : (full, 1027.5)
+stone : (low, 80.5)
+tools : (depleted, 23.5)
+metal : (depleted, 0)
+Actions to execute: 
+['mine', 'forge', 'forge', 'gather_stone', 'gather_stone', 'mine', 'mine', 'mine', 'gather_stone', 'mine']
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherWaterAction
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherWaterAction
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherWaterAction
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherWaterAction
+-------------------------------------------
+Day 3
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  CollectWaterAction
+-------------------------------------------
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  FetchWaterAction
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherWater
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+{'food': 'full', 'wood': 'full', 'water': 'full', 'herbs': 'full', 'stone': 'low', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs metal
+Village needs stone
+Village needs tools
+['forge', 'mine', 'gather_stone', 'mine']
+[1, 1, 1, 1]
+['forge', 'mine', 'mine', 'gather_stone', 'mine', 'gather_stone', 'mine', 'mine', 'mine', 'mine']
+Villager 2 has selected a new action: forge
+Villager 3 has selected a new action: mine
+Villager 5 has selected a new action: mine
+Villager 8 has selected a new action: forge
+food : (full, 1020)
+wood : (full, 1060.0)
+water : (full, 1127.5)
+herbs : (full, 1027.5)
+stone : (low, 126.0)
+tools : (depleted, 6.5)
+metal : (depleted, 17.5)
+Actions to execute: 
+['forge', 'mine', 'forge', 'mine', 'mine', 'mine', 'mine', 'mine', 'forge', 'mine']
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherWoodAction
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Day 4
+Villager is socializing.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherHerbsAction
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherWoodAction
+-------------------------------------------
+Villager is socializing.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherWaterAction
+-------------------------------------------
+Villager is socializing.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherWaterAction
+-------------------------------------------
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+{'food': 'full', 'wood': 'full', 'water': 'full', 'herbs': 'full', 'stone': 'normal', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs metal
+Village needs tools
+['forge', 'mine']
+[1, 1]
+['mine', 'mine', 'mine', 'forge', 'mine', 'forge', 'forge', 'forge', 'mine', 'forge']
+food : (full, 1020)
+wood : (full, 1070.0)
+water : (full, 1157.5)
+herbs : (full, 1037.5)
+stone : (normal, 186.0)
+tools : (depleted, 0)
+metal : (depleted, 7.5)
+Actions to execute: 
+['mine', 'mine', 'mine', 'mine', 'mine', 'forge', 'forge', 'mine', 'mine', 'forge']
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Day 5
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherWaterAction
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+{'food': 'full', 'wood': 'full', 'water': 'full', 'herbs': 'full', 'stone': 'normal', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs metal
+Village needs tools
+['forge', 'mine']
+[1, 1]
+['mine', 'mine', 'forge', 'mine', 'forge', 'mine', 'mine', 'mine', 'forge', 'forge']
+Villager 3 has selected a new action: mine
+Villager 8 has selected a new action: mine
+Villager 9 has selected a new action: forge
+food : (full, 1020)
+wood : (full, 1070.0)
+water : (full, 1147.5)
+herbs : (full, 1037.5)
+stone : (normal, 231.0)
+tools : (depleted, 5)
+metal : (depleted, 0)
+Actions to execute: 
+['mine', 'mine', 'forge', 'mine', 'mine', 'mine', 'mine', 'mine', 'mine', 'forge']
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherHerbsAction
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Day 6
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherHerbsAction
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherFirewoodAction
+-------------------------------------------
+Villager is socializing.
+-------------------------------------------
+ChatGPT suggestions.
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherFirewoodAction
+-------------------------------------------
+Villager is socializing.
+{'food': 'full', 'wood': 'full', 'water': 'full', 'herbs': 'full', 'stone': 'normal', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs metal
+Village needs tools
+['forge', 'mine']
+[1, 1]
+['forge', 'forge', 'mine', 'mine', 'mine', 'forge', 'forge', 'mine', 'mine', 'mine']
+Villager 4 has selected a new action: mine
+Villager 5 has selected a new action: forge
+food : (full, 1020)
+wood : (full, 1070.0)
+water : (full, 1147.5)
+herbs : (full, 1042.5)
+stone : (normal, 296.0)
+tools : (depleted, 7.5)
+metal : (depleted, 15.0)
+Actions to execute: 
+['forge', 'mine', 'mine', 'mine', 'mine', 'forge', 'forge', 'mine', 'mine', 'mine']
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Day 7
+Villager is socializing.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherHerbsAction
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager is socializing.
+Villager is socializing.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  FetchWaterAction
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager is socializing.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  FetchWaterAction
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherBerriesAction
+-------------------------------------------
+{'food': 'full', 'wood': 'full', 'water': 'full', 'herbs': 'full', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs metal
+Village needs tools
+['forge', 'mine']
+[1, 1]
+['forge', 'mine', 'forge', 'mine', 'forge', 'mine', 'mine', 'mine', 'mine', 'forge']
+food : (full, 1030)
+wood : (full, 1070.0)
+water : (full, 1162.5)
+herbs : (full, 1042.5)
+stone : (full, 356.0)
+tools : (depleted, 0.5)
+metal : (depleted, 10)
+Actions to execute: 
+['mine', 'mine', 'forge', 'mine', 'mine', 'mine', 'mine', 'mine', 'mine', 'mine']
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherMaterialsAction
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Day 8
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is drinking water.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager need eating.
+villager is eating
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherHerbsAction
+-------------------------------------------
+Villager is drinking water.
+Villager need eating.
+villager is eating
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherWaterAction
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager need eating.
+villager is eating
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager need eating.
+villager is eating
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherBerriesAction
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager need eating.
+villager is eating
+Villager is socializing.
+{'food': 'full', 'wood': 'full', 'water': 'full', 'herbs': 'full', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs metal
+Village needs tools
+['forge', 'mine']
+[1, 1]
+['forge', 'mine', 'mine', 'forge', 'forge', 'forge', 'mine', 'mine', 'forge', 'forge']
+Villager 0 has selected a new action: forge
+Villager 1 has selected a new action: forge
+Villager 4 has selected a new action: forge
+Villager 6 has selected a new action: forge
+food : (full, 932.5)
+wood : (full, 1070.0)
+water : (full, 1050.0)
+herbs : (full, 1042.5)
+stone : (full, 436.0)
+tools : (depleted, 2)
+metal : (depleted, 30.0)
+Actions to execute: 
+['forge', 'forge', 'mine', 'forge', 'forge', 'forge', 'forge', 'mine', 'forge', 'forge']
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager need eating.
+villager is eating
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Day 9
+Villager need eating.
+villager is eating
+Villager is socializing.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherWaterAction
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherWater
+-------------------------------------------
+Villager is socializing.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherHerbsAction
+-------------------------------------------
+Villager is drinking water.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  FetchWaterAction
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+{'food': 'full', 'wood': 'full', 'water': 'full', 'herbs': 'full', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs metal
+Village needs tools
+['forge', 'mine']
+[1, 1]
+['mine', 'mine', 'mine', 'forge', 'mine', 'mine', 'mine', 'mine', 'forge', 'mine']
+Villager 2 has selected a new action: mine
+Villager 9 has selected a new action: forge
+food : (full, 880.0)
+wood : (full, 1070.0)
+water : (full, 957.5)
+herbs : (full, 1042.5)
+stone : (full, 456.0)
+tools : (depleted, 31.5)
+metal : (depleted, 0)
+Actions to execute: 
+['mine', 'mine', 'mine', 'forge', 'mine', 'mine', 'mine', 'mine', 'mine', 'forge']
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherMedicinalHerbsAction
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherHerbsAction
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  FetchWaterAction
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Day 10
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherWaterAction
+-------------------------------------------
+Villager is drinking water.
+Villager is socializing.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherWaterAction
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherHerbsAction
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+{'food': 'full', 'wood': 'full', 'water': 'full', 'herbs': 'full', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs metal
+Village needs tools
+['forge', 'mine']
+[1, 1]
+['mine', 'forge', 'forge', 'forge', 'mine', 'mine', 'mine', 'forge', 'mine', 'mine']
+Villager 0 has selected a new action: forge
+Villager 1 has selected a new action: mine
+Villager 3 has selected a new action: forge
+Villager 5 has selected a new action: forge
+Villager 9 has selected a new action: mine
+food : (full, 850.0)
+wood : (full, 1070.0)
+water : (full, 890.0)
+herbs : (full, 1067.5)
+stone : (full, 521.0)
+tools : (depleted, 13.0)
+metal : (depleted, 0)
+Actions to execute: 
+['forge', 'mine', 'forge', 'forge', 'mine', 'forge', 'mine', 'forge', 'mine', 'mine']
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherFoodAction
+-------------------------------------------
+Villager is socializing.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherFoodAction
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherHerbsAction
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+Day 11
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager is drinking water.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager is socializing.
+Villager need eating.
+villager is eating
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherWaterAction
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager is drinking water.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is socializing.
+Villager is drinking water.
+Villager is socializing.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherHerbsAction
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager need eating.
+villager is eating
+Villager is socializing.
+{'food': 'full', 'wood': 'full', 'water': 'full', 'herbs': 'full', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs metal
+Village needs tools
+['forge', 'mine']
+[1, 1]
+['mine', 'forge', 'mine', 'forge', 'forge', 'mine', 'forge', 'mine', 'forge', 'mine']
+food : (full, 737.5)
+wood : (full, 1070.0)
+water : (full, 835.0)
+herbs : (full, 1067.5)
+stone : (full, 561.0)
+tools : (depleted, 17.0)
+metal : (depleted, 7.5)
+Actions to execute: 
+['mine', 'forge', 'mine', 'forge', 'mine', 'mine', 'mine', 'mine', 'mine', 'mine']
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Day 12
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager is socializing.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherWaterAction
+-------------------------------------------
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager need eating.
+villager is eating
+Villager is socializing.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherWaterAction
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager  sleeping.
+Villager is taking a nap.
+{'food': 'normal', 'wood': 'full', 'water': 'full', 'herbs': 'full', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs metal
+Village needs tools
+['forge', 'mine']
+[1, 1]
+['forge', 'mine', 'forge', 'mine', 'mine', 'forge', 'forge', 'forge', 'mine', 'forge']
+food : (normal, 655.0)
+wood : (full, 1070.0)
+water : (full, 822.5)
+herbs : (full, 1067.5)
+stone : (full, 621.0)
+tools : (depleted, 0)
+metal : (depleted, 17.5)
+Actions to execute: 
+['forge', 'mine', 'mine', 'mine', 'mine', 'mine', 'forge', 'mine', 'mine', 'mine']
+Villager is socializing.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherWaterAction
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Day 13
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager is drinking water.
+Villager is socializing.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherWaterAction
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  FetchWaterAction
+-------------------------------------------
+Villager is socializing.
+{'food': 'normal', 'wood': 'full', 'water': 'full', 'herbs': 'full', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs metal
+Village needs tools
+['forge', 'mine']
+[1, 1]
+['mine', 'forge', 'forge', 'mine', 'mine', 'mine', 'forge', 'forge', 'forge', 'forge']
+Villager 0 has selected a new action: mine
+Villager 6 has selected a new action: forge
+Villager 7 has selected a new action: mine
+Villager 9 has selected a new action: forge
+food : (normal, 647.5)
+wood : (full, 1070.0)
+water : (full, 847.5)
+herbs : (full, 1067.5)
+stone : (full, 691.0)
+tools : (depleted, 0)
+metal : (depleted, 27.5)
+Actions to execute: 
+['mine', 'mine', 'forge', 'mine', 'mine', 'mine', 'forge', 'mine', 'forge', 'forge']
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  CollectHerbsAction
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Day 14
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager is drinking water.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherHerbsAction
+-------------------------------------------
+Villager need eating.
+villager is eating
+Villager is socializing.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  RestAction
+-------------------------------------------
+Villager is socializing.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherHerbsAction
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is socializing.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherHerbsAction
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager need eating.
+villager is eating
+Villager is socializing.
+{'food': 'normal', 'wood': 'full', 'water': 'full', 'herbs': 'full', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs metal
+Village needs tools
+['forge', 'mine']
+[1, 1]
+['forge', 'forge', 'forge', 'forge', 'mine', 'forge', 'mine', 'forge', 'forge', 'mine']
+Villager 3 has selected a new action: forge
+Villager 8 has selected a new action: forge
+food : (normal, 602.5)
+wood : (full, 1070.0)
+water : (full, 787.5)
+herbs : (full, 1087.5)
+stone : (full, 766.0)
+tools : (depleted, 15.5)
+metal : (depleted, 0)
+Actions to execute: 
+['forge', 'forge', 'forge', 'forge', 'mine', 'forge', 'mine', 'forge', 'forge', 'mine']
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Day 15
+Villager need eating.
+villager is eating
+Villager is socializing.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherBerriesAction
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager is socializing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  CollectWaterAction
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+{'food': 'normal', 'wood': 'full', 'water': 'full', 'herbs': 'full', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs metal
+Village needs tools
+['forge', 'mine']
+[1, 1]
+['forge', 'mine', 'forge', 'mine', 'mine', 'forge', 'mine', 'forge', 'mine', 'forge']
+food : (normal, 475.0)
+wood : (full, 1070.0)
+water : (full, 750.0)
+herbs : (full, 1027.5)
+stone : (full, 801.0)
+tools : (depleted, 35.5)
+metal : (depleted, 5)
+Actions to execute: 
+['forge', 'mine', 'mine', 'mine', 'mine', 'mine', 'mine', 'forge', 'mine', 'forge']
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is healing.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager is healing.
+Day 16
+Villager is drinking water.
+Villager is socializing.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherWaterAction
+-------------------------------------------
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  RestAction
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherHerbsAction
+-------------------------------------------
+Villager is socializing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GardenAction
+-------------------------------------------
+Villager is socializing.
+{'food': 'normal', 'wood': 'full', 'water': 'full', 'herbs': 'full', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs metal
+Village needs tools
+['forge', 'mine']
+[1, 1]
+['mine', 'mine', 'mine', 'forge', 'mine', 'forge', 'mine', 'forge', 'mine', 'forge']
+Villager 6 has selected a new action: mine
+Villager 9 has selected a new action: forge
+food : (normal, 407.5)
+wood : (full, 1070.0)
+water : (full, 720.0)
+herbs : (full, 987.5)
+stone : (full, 861.0)
+tools : (depleted, 29.0)
+metal : (depleted, 0)
+Actions to execute: 
+['mine', 'mine', 'mine', 'mine', 'mine', 'forge', 'mine', 'mine', 'mine', 'forge']
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is socializing.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherWaterAction
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Day 17
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager is healing.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is socializing.
+Villager is socializing.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherHerbsAction
+-------------------------------------------
+Villager is drinking water.
+Villager need eating.
+villager is eating
+Villager is socializing.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherHerbsAction
+-------------------------------------------
+Villager is healing.
+Villager is socializing.
+Villager is drinking water.
+Villager is healing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+{'food': 'normal', 'wood': 'full', 'water': 'normal', 'herbs': 'full', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs metal
+Village needs tools
+['forge', 'mine']
+[1, 1]
+['mine', 'mine', 'forge', 'mine', 'forge', 'mine', 'mine', 'mine', 'mine', 'forge']
+food : (normal, 370.0)
+wood : (full, 1070.0)
+water : (normal, 652.5)
+herbs : (full, 932.5)
+stone : (full, 926.0)
+tools : (depleted, 7.5)
+metal : (depleted, 0)
+Actions to execute: 
+['mine', 'mine', 'mine', 'mine', 'mine', 'mine', 'mine', 'mine', 'mine', 'forge']
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Day 18
+Villager need eating.
+villager is eating
+Villager is socializing.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherBerriesAction
+-------------------------------------------
+Villager is drinking water.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager is drinking water.
+Villager need eating.
+villager is eating
+Villager is socializing.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  FetchWaterAction
+-------------------------------------------
+Villager is healing.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherWaterAction
+-------------------------------------------
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+{'food': 'low', 'wood': 'full', 'water': 'normal', 'herbs': 'full', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs food.
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_food', 'farm', 'hunt']
+[1, 1, 10, 10, 10]
+['hunt', 'gather_food', 'forge', 'hunt', 'mine', 'mine', 'mine', 'farm', 'mine', 'farm']
+Villager 0 has selected a new action: mine
+Villager 1 has selected a new action: gather_food
+Villager 2 has selected a new action: forge
+Villager 4 has selected a new action: gather_food
+Villager 5 has selected a new action: farm
+Villager 6 has selected a new action: mine
+Villager 7 has selected a new action: forge
+food : (low, 265.0)
+wood : (full, 1070.0)
+water : (normal, 585.0)
+herbs : (full, 862.5)
+stone : (full, 1006.0)
+tools : (depleted, 5)
+metal : (depleted, 15.0)
+Actions to execute: 
+['mine', 'gather_food', 'forge', 'hunt', 'gather_food', 'farm', 'mine', 'forge', 'mine', 'farm']
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager is healing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatheringAction
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is healing.
+Villager need eating.
+villager is eating
+Day 19
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager is socializing.
+Villager is healing.
+Villager is socializing.
+Villager is socializing.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  ExploreForestAction
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is drinking water.
+Villager is healing.
+Villager is socializing.
+{'food': 'normal', 'wood': 'full', 'water': 'normal', 'herbs': 'full', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs metal
+Village needs tools
+['forge', 'mine']
+[1, 1]
+['forge', 'mine', 'forge', 'mine', 'forge', 'mine', 'forge', 'mine', 'forge', 'mine']
+food : (normal, 355.0)
+wood : (full, 1070.0)
+water : (normal, 532.5)
+herbs : (full, 762.5)
+stone : (full, 1036.0)
+tools : (depleted, 3.5)
+metal : (depleted, 5)
+Actions to execute: 
+['mine', 'mine', 'mine', 'mine', 'mine', 'mine', 'mine', 'mine', 'forge', 'mine']
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherFoodAction
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherBerriesAction
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Day 20
+Villager is drinking water.
+Villager is socializing.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherHerbsAction
+-------------------------------------------
+Villager is healing.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is socializing.
+Villager is socializing.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherHerbsAction
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager is socializing.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherHerbsAction
+-------------------------------------------
+Villager is healing.
+Villager is socializing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is healing.
+Villager need eating.
+villager is eating
+{'food': 'low', 'wood': 'full', 'water': 'normal', 'herbs': 'full', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs food.
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_food', 'farm', 'hunt']
+[1, 1, 10, 10, 10]
+['gather_food', 'hunt', 'gather_food', 'gather_food', 'mine', 'gather_food', 'farm', 'hunt', 'gather_food', 'gather_food']
+Villager 3 has selected a new action: mine
+Villager 4 has selected a new action: mine
+Villager 6 has selected a new action: forge
+Villager 7 has selected a new action: forge
+food : (low, 272.5)
+wood : (full, 1070.0)
+water : (normal, 472.5)
+herbs : (full, 732.5)
+stone : (full, 1146.0)
+tools : (depleted, 1)
+metal : (depleted, 35.0)
+Actions to execute: 
+['gather_food', 'hunt', 'gather_food', 'mine', 'mine', 'gather_food', 'forge', 'forge', 'gather_food', 'gather_food']
+Villager  sleeping.
+Villager is taking a nap.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherHerbsAction
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherBerriesAction
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  CollectWaterAction
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+Day 21
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager is socializing.
+Villager need eating.
+villager is eating
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherBerriesAction
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is healing.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager is drinking water.
+Villager need eating.
+villager is eating
+Villager is drinking water.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is healing.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+{'food': 'low', 'wood': 'full', 'water': 'normal', 'herbs': 'normal', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs food.
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_food', 'farm', 'hunt']
+[1, 1, 10, 10, 10]
+['hunt', 'hunt', 'forge', 'farm', 'farm', 'mine', 'mine', 'forge', 'farm', 'farm']
+Villager 0 has selected a new action: mine
+Villager 1 has selected a new action: forge
+Villager 2 has selected a new action: gather_food
+Villager 3 has selected a new action: mine
+Villager 4 has selected a new action: mine
+Villager 5 has selected a new action: farm
+Villager 8 has selected a new action: forge
+food : (low, 202.5)
+wood : (full, 1070.0)
+water : (normal, 390.0)
+herbs : (normal, 672.5)
+stone : (full, 1166.0)
+tools : (depleted, 5)
+metal : (depleted, 0)
+Actions to execute: 
+['mine', 'forge', 'gather_food', 'mine', 'mine', 'farm', 'mine', 'forge', 'forge', 'farm']
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager is socializing.
+Villager need eating.
+villager is eating
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherHerbsAction
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherHerbsAction
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager need eating.
+villager is eating
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Day 22
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager need eating.
+villager is eating
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherWoodAction
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager is socializing.
+Villager is drinking water.
+Villager is healing.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager is socializing.
+{'food': 'depleted', 'wood': 'full', 'water': 'normal', 'herbs': 'normal', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs food.
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_food', 'farm', 'hunt']
+[1, 1, 10, 10, 10]
+['forge', 'gather_food', 'hunt', 'gather_food', 'gather_food', 'forge', 'gather_food', 'mine', 'farm', 'forge']
+Villager 1 has selected a new action: forge
+Villager 2 has selected a new action: forge
+Villager 3 has selected a new action: forge
+Villager 4 has selected a new action: forge
+Villager 9 has selected a new action: farm
+food : (depleted, 75.0)
+wood : (full, 1080.0)
+water : (normal, 360.0)
+herbs : (normal, 632.5)
+stone : (full, 1211.0)
+tools : (depleted, 10)
+metal : (depleted, 0)
+Actions to execute: 
+['hunt', 'forge', 'forge', 'forge', 'forge', 'hunt', 'gather_food', 'mine', 'farm', 'farm']
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Day 23
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager is drinking water.
+Villager is healing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager need eating.
+villager is eating
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager is socializing.
+Villager is healing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager is socializing.
+Villager is healing.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+{'food': 'low', 'wood': 'full', 'water': 'normal', 'herbs': 'normal', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs food.
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_food', 'farm', 'hunt']
+[1, 1, 10, 10, 10]
+['gather_food', 'forge', 'gather_food', 'farm', 'farm', 'mine', 'farm', 'farm', 'forge', 'farm']
+Villager 0 has selected a new action: mine
+Villager 4 has selected a new action: forge
+Villager 5 has selected a new action: forge
+Villager 8 has selected a new action: mine
+food : (low, 165.0)
+wood : (full, 1080.0)
+water : (normal, 322.5)
+herbs : (normal, 522.5)
+stone : (full, 1211.0)
+tools : (depleted, 13.5)
+metal : (depleted, 0)
+Actions to execute: 
+['mine', 'forge', 'gather_food', 'farm', 'forge', 'forge', 'farm', 'farm', 'mine', 'farm']
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager is drinking water.
+Villager is healing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  Collect herbs
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Day 24
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager is drinking water.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager is healing.
+Villager is socializing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherHerbsAction
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+{'food': 'low', 'wood': 'full', 'water': 'low', 'herbs': 'normal', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs food.
+Village needs water
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_water', 'gather_food', 'farm', 'hunt']
+[1, 1, 10, 10, 10, 10]
+['farm', 'farm', 'hunt', 'gather_water', 'forge', 'hunt', 'gather_food', 'farm', 'gather_food', 'forge']
+Villager 0 has selected a new action: gather_water
+Villager 1 has selected a new action: mine
+Villager 4 has selected a new action: mine
+Villager 5 has selected a new action: gather_water
+Villager 6 has selected a new action: farm
+Villager 7 has selected a new action: forge
+Villager 9 has selected a new action: mine
+food : (low, 102.5)
+wood : (full, 1080.0)
+water : (low, 247.5)
+herbs : (normal, 447.5)
+stone : (full, 1236.0)
+tools : (depleted, 27.5)
+metal : (depleted, 7.5)
+Actions to execute: 
+['gather_water', 'mine', 'hunt', 'gather_water', 'mine', 'gather_water', 'farm', 'forge', 'gather_food', 'mine']
+Villager  sleeping.
+Villager is taking a nap.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherHerbsAction
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is healing.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Day 25
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherWaterAction
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is healing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is healing.
+Villager is socializing.
+{'food': 'depleted', 'wood': 'full', 'water': 'low', 'herbs': 'normal', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs food.
+Village needs water
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_water', 'gather_food', 'farm', 'hunt']
+[1, 1, 10, 10, 10, 10]
+['forge', 'gather_food', 'gather_water', 'gather_food', 'hunt', 'mine', 'gather_food', 'hunt', 'forge', 'gather_water']
+Villager 1 has selected a new action: forge
+Villager 4 has selected a new action: forge
+Villager 6 has selected a new action: forge
+Villager 7 has selected a new action: forge
+food : (depleted, 27.5)
+wood : (full, 1080.0)
+water : (low, 230.0)
+herbs : (normal, 342.5)
+stone : (full, 1246.0)
+tools : (depleted, 15.5)
+metal : (depleted, 0)
+Actions to execute: 
+['forge', 'forge', 'gather_water', 'gather_food', 'forge', 'mine', 'forge', 'forge', 'forge', 'gather_water']
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherHerbsAction
+-------------------------------------------
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Day 26
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherHerbsAction
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager is drinking water.
+Villager is healing.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+{'food': 'depleted', 'wood': 'full', 'water': 'low', 'herbs': 'low', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs herbs.
+Village needs food.
+Village needs water
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_water', 'gather_food', 'farm', 'hunt', 'gather_herbs']
+[1, 1, 10, 10, 10, 10, 10]
+['gather_herbs', 'hunt', 'mine', 'forge', 'mine', 'gather_food', 'gather_water', 'hunt', 'forge', 'gather_herbs']
+Villager 3 has selected a new action: forge
+Villager 7 has selected a new action: forge
+food : (depleted, 2.5)
+wood : (full, 1080.0)
+water : (low, 155.0)
+herbs : (low, 257.5)
+stone : (full, 1261.0)
+tools : (depleted, 43.5)
+metal : (depleted, 0)
+Actions to execute: 
+['gather_herbs', 'hunt', 'mine', 'forge', 'mine', 'gather_food', 'gather_water', 'forge', 'forge', 'gather_herbs']
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is healing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Day 27
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is healing.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherWaterAction
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is healing.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is healing.
+Villager need eating.
+Villager is drinking water.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is healing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+{'food': 'depleted', 'wood': 'full', 'water': 'depleted', 'herbs': 'low', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs herbs.
+Village needs food.
+Village needs water
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_water', 'gather_food', 'farm', 'hunt', 'gather_herbs']
+[1, 1, 10, 10, 10, 10, 10]
+['gather_food', 'gather_herbs', 'mine', 'hunt', 'gather_food', 'farm', 'hunt', 'farm', 'gather_water', 'gather_water']
+Villager 7 has selected a new action: gather_food
+Villager 8 has selected a new action: gather_water
+food : (depleted, 2.5)
+wood : (full, 1080.0)
+water : (depleted, 17.5)
+herbs : (low, 132.5)
+stone : (full, 1281.0)
+tools : (depleted, 45.5)
+metal : (depleted, 0)
+Actions to execute: 
+['gather_food', 'gather_herbs', 'mine', 'hunt', 'gather_food', 'gather_herbs', 'hunt', 'gather_food', 'gather_water', 'gather_water']
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Day 28
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+{'food': 'depleted', 'wood': 'full', 'water': 'depleted', 'herbs': 'depleted', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs herbs.
+Village needs food.
+Village needs water
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_water', 'gather_food', 'farm', 'hunt', 'gather_herbs']
+[1, 1, 10, 10, 10, 10, 10]
+['mine', 'gather_herbs', 'gather_herbs', 'gather_herbs', 'gather_food', 'farm', 'farm', 'farm', 'gather_water', 'gather_food']
+Villager 0 has selected a new action: mine
+Villager 3 has selected a new action: mine
+Villager 4 has selected a new action: forge
+Villager 6 has selected a new action: forge
+Villager 8 has selected a new action: gather_food
+food : (depleted, 7.5)
+wood : (full, 1080.0)
+water : (depleted, 2.5)
+herbs : (depleted, 32.5)
+stone : (full, 1296.0)
+tools : (depleted, 33.5)
+metal : (depleted, 7.5)
+Actions to execute: 
+['mine', 'gather_herbs', 'gather_herbs', 'mine', 'forge', 'farm', 'forge', 'farm', 'gather_food', 'gather_food']
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Day 29
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager is healing.
+Villager need eating.
+Villager is socializing.
+Villager is healing.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+{'food': 'depleted', 'wood': 'full', 'water': 'depleted', 'herbs': 'depleted', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs herbs.
+Village needs food.
+Village needs water
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_water', 'gather_food', 'farm', 'hunt', 'gather_herbs']
+[1, 1, 10, 10, 10, 10, 10]
+['hunt', 'gather_herbs', 'mine', 'forge', 'gather_herbs', 'mine', 'hunt', 'gather_food', 'forge', 'farm']
+food : (depleted, 5.0)
+wood : (full, 1080.0)
+water : (depleted, 2.5)
+herbs : (depleted, 7.5)
+stone : (full, 1311.0)
+tools : (depleted, 38.0)
+metal : (depleted, 0)
+Actions to execute: 
+['gather_herbs', 'gather_herbs', 'mine', 'gather_herbs', 'gather_herbs', 'gather_herbs', 'gather_herbs', 'gather_food', 'forge', 'gather_herbs']
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+Day 30
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+{'food': 'depleted', 'wood': 'full', 'water': 'depleted', 'herbs': 'low', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs herbs.
+Village needs food.
+Village needs water
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_water', 'gather_food', 'farm', 'hunt', 'gather_herbs']
+[1, 1, 10, 10, 10, 10, 10]
+['gather_herbs', 'mine', 'forge', 'forge', 'hunt', 'farm', 'hunt', 'gather_food', 'gather_herbs', 'gather_food']
+food : (depleted, 10.0)
+wood : (full, 1080.0)
+water : (depleted, 2.5)
+herbs : (low, 147.5)
+stone : (full, 1311.0)
+tools : (depleted, 32.0)
+metal : (depleted, 0)
+Actions to execute: 
+['gather_herbs', 'gather_herbs', 'gather_herbs', 'gather_herbs', 'hunt', 'gather_herbs', 'gather_herbs', 'gather_herbs', 'gather_herbs', 'gather_herbs']
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+Villager Villager 5 has died
+energy : (tired, 15)
+hunger : (starving, 0)
+thirst : (dehidrated, 0)
+health : (average, 30.0)
+mood : (neutral, 40.0)
+age : (adult, 28)
+gender : (female, 1)
+Day 31
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+{'food': 'depleted', 'wood': 'full', 'water': 'depleted', 'herbs': 'low', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs herbs.
+Village needs food.
+Village needs water
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_water', 'gather_food', 'farm', 'hunt', 'gather_herbs']
+[1, 1, 10, 10, 10, 10, 10]
+['mine', 'gather_herbs', 'forge', 'forge', 'mine', 'mine', 'gather_food', 'farm', 'farm']
+food : (depleted, 10.0)
+wood : (full, 1080.0)
+water : (depleted, 2.5)
+herbs : (low, 247.5)
+stone : (full, 1311.0)
+tools : (depleted, 24.5)
+metal : (depleted, 0)
+Actions to execute: 
+['mine', 'gather_herbs', 'gather_herbs', 'forge', 'mine', 'mine', 'gather_herbs', 'gather_herbs', 'gather_herbs']
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+Villager Villager 4 has died
+energy : (tired, 22.5)
+hunger : (starving, 0)
+thirst : (dehidrated, 0)
+health : (average, 30.0)
+mood : (sad, 5.0)
+age : (adult, 42)
+gender : (male, 0)
+Villager Villager 7 has died
+energy : (exhausted, 0)
+hunger : (starving, 0)
+thirst : (dehidrated, 0)
+health : (average, 35.0)
+mood : (sad, 0)
+age : (child, 15)
+gender : (female, 1)
+Day 32
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  CollectWater
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+{'food': 'depleted', 'wood': 'full', 'water': 'depleted', 'herbs': 'normal', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs food.
+Village needs water
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_water', 'gather_food', 'farm', 'hunt']
+[1, 1, 10, 10, 10, 10]
+['gather_water', 'hunt', 'gather_food', 'hunt', 'gather_food', 'mine', 'forge']
+food : (depleted, 10.0)
+wood : (full, 1080.0)
+water : (depleted, 2.5)
+herbs : (normal, 342.5)
+stone : (full, 1341.0)
+tools : (depleted, 17.5)
+metal : (depleted, 10)
+Actions to execute: 
+['hunt', 'hunt', 'gather_food', 'hunt', 'hunt', 'hunt', 'hunt']
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager Villager 9 has died
+energy : (normal, 30)
+hunger : (starving, 0)
+thirst : (dehidrated, 0)
+health : (injured, 25.0)
+mood : (sad, 27.5)
+age : (child, 0)
+gender : (male, 0)
+Day 33
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+{'food': 'depleted', 'wood': 'full', 'water': 'depleted', 'herbs': 'normal', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs food.
+Village needs water
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_water', 'gather_food', 'farm', 'hunt']
+[1, 1, 10, 10, 10, 10]
+['gather_water', 'farm', 'gather_water', 'farm', 'mine', 'mine']
+Villager 0 has selected a new action: mine
+food : (depleted, 30.0)
+wood : (full, 1080.0)
+water : (depleted, 2.5)
+herbs : (normal, 287.5)
+stone : (full, 1341.0)
+tools : (depleted, 0)
+metal : (depleted, 10)
+Actions to execute: 
+['mine', 'farm', 'gather_water', 'farm', 'mine', 'mine']
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager is socializing.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  GatherWaterAction
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Day 34
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+-------------------------------------------
+ChatGPT suggestions.
+Villager is doing the suggested task:  CollectWaterAction
+-------------------------------------------
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+{'food': 'depleted', 'wood': 'full', 'water': 'depleted', 'herbs': 'normal', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs food.
+Village needs water
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_water', 'gather_food', 'farm', 'hunt']
+[1, 1, 10, 10, 10, 10]
+['gather_water', 'gather_water', 'farm', 'farm', 'hunt', 'gather_food']
+Villager 1 has selected a new action: forge
+Villager 3 has selected a new action: gather_water
+Villager 4 has selected a new action: gather_food
+food : (depleted, 7.5)
+wood : (full, 1080.0)
+water : (depleted, 7.5)
+herbs : (normal, 277.5)
+stone : (full, 1371.0)
+tools : (depleted, 0)
+metal : (depleted, 25)
+Actions to execute: 
+['gather_water', 'forge', 'farm', 'gather_water', 'gather_food', 'gather_food']
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Day 35
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager is healing.
+Villager need eating.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+Villager need eating.
+Villager is socializing.
+{'food': 'depleted', 'wood': 'full', 'water': 'depleted', 'herbs': 'normal', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs food.
+Village needs water
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_water', 'gather_food', 'farm', 'hunt']
+[1, 1, 10, 10, 10, 10]
+['gather_food', 'gather_food', 'mine', 'gather_food', 'gather_food', 'forge']
+food : (depleted, 5.0)
+wood : (full, 1080.0)
+water : (depleted, 7.5)
+herbs : (normal, 222.5)
+stone : (full, 1371.0)
+tools : (depleted, 0)
+metal : (depleted, 0)
+Actions to execute: 
+['gather_food', 'hunt', 'mine', 'hunt', 'hunt', 'forge']
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Day 36
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager is healing.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+{'food': 'depleted', 'wood': 'full', 'water': 'depleted', 'herbs': 'low', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs herbs.
+Village needs food.
+Village needs water
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_water', 'gather_food', 'farm', 'hunt', 'gather_herbs']
+[1, 1, 10, 10, 10, 10, 10]
+['hunt', 'farm', 'gather_food', 'hunt', 'gather_water', 'forge']
+food : (depleted, 2.5)
+wood : (full, 1080.0)
+water : (depleted, 7.5)
+herbs : (low, 172.5)
+stone : (full, 1386.0)
+tools : (depleted, 7.5)
+metal : (depleted, 0)
+Actions to execute: 
+['gather_herbs', 'farm', 'gather_herbs', 'gather_herbs', 'gather_water', 'gather_herbs']
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is healing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Day 37
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager is socializing.
+Villager is healing.
+Villager is socializing.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+Villager is healing.
+Villager need eating.
+Villager is socializing.
+{'food': 'depleted', 'wood': 'full', 'water': 'depleted', 'herbs': 'normal', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs food.
+Village needs water
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_water', 'gather_food', 'farm', 'hunt']
+[1, 1, 10, 10, 10, 10]
+['forge', 'farm', 'gather_food', 'gather_food', 'gather_food', 'mine']
+Villager 0 has selected a new action: hunt
+Villager 1 has selected a new action: forge
+food : (depleted, 10.0)
+wood : (full, 1080.0)
+water : (depleted, 10.0)
+herbs : (normal, 192.5)
+stone : (full, 1386.0)
+tools : (depleted, 7.5)
+metal : (depleted, 0)
+Actions to execute: 
+['hunt', 'forge', 'hunt', 'hunt', 'hunt', 'mine']
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Day 38
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager is socializing.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager is healing.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+{'food': 'depleted', 'wood': 'full', 'water': 'depleted', 'herbs': 'low', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs herbs.
+Village needs food.
+Village needs water
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_water', 'gather_food', 'farm', 'hunt', 'gather_herbs']
+[1, 1, 10, 10, 10, 10, 10]
+['gather_food', 'gather_food', 'hunt', 'farm', 'gather_food', 'gather_herbs']
+Villager 2 has selected a new action: forge
+food : (depleted, 10.0)
+wood : (full, 1080.0)
+water : (depleted, 10.0)
+herbs : (low, 117.5)
+stone : (full, 1401.0)
+tools : (depleted, 0)
+metal : (depleted, 7.5)
+Actions to execute: 
+['gather_food', 'gather_food', 'forge', 'farm', 'gather_food', 'gather_herbs']
+Villager is healing.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager is socializing.
+Day 39
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager is healing.
+Villager is socializing.
+Villager is healing.
+Villager is socializing.
+{'food': 'low', 'wood': 'full', 'water': 'depleted', 'herbs': 'low', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs herbs.
+Village needs food.
+Village needs water
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_water', 'gather_food', 'farm', 'hunt', 'gather_herbs']
+[1, 1, 10, 10, 10, 10, 10]
+['gather_food', 'forge', 'gather_herbs', 'forge', 'gather_herbs', 'hunt']
+Villager 1 has selected a new action: forge
+Villager 3 has selected a new action: forge
+food : (low, 65.0)
+wood : (full, 1080.0)
+water : (depleted, 10.0)
+herbs : (low, 72.5)
+stone : (full, 1401.0)
+tools : (depleted, 5)
+metal : (depleted, 0)
+Actions to execute: 
+['gather_food', 'forge', 'gather_herbs', 'forge', 'gather_herbs', 'hunt']
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Day 40
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager is healing.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is healing.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+{'food': 'depleted', 'wood': 'full', 'water': 'depleted', 'herbs': 'low', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs herbs.
+Village needs food.
+Village needs water
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_water', 'gather_food', 'farm', 'hunt', 'gather_herbs']
+[1, 1, 10, 10, 10, 10, 10]
+['hunt', 'gather_water', 'farm', 'gather_herbs', 'gather_water', 'gather_herbs']
+Villager 1 has selected a new action: farm
+Villager 2 has selected a new action: forge
+Villager 3 has selected a new action: gather_water
+food : (depleted, 25.0)
+wood : (full, 1080.0)
+water : (depleted, 10.0)
+herbs : (low, 82.5)
+stone : (full, 1401.0)
+tools : (depleted, 7.5)
+metal : (depleted, 0)
+Actions to execute: 
+['hunt', 'farm', 'forge', 'gather_water', 'gather_water', 'gather_herbs']
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is healing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is healing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Day 41
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+{'food': 'depleted', 'wood': 'full', 'water': 'depleted', 'herbs': 'depleted', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs herbs.
+Village needs food.
+Village needs water
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_water', 'gather_food', 'farm', 'hunt', 'gather_herbs']
+[1, 1, 10, 10, 10, 10, 10]
+['gather_herbs', 'hunt', 'gather_herbs', 'farm', 'farm', 'farm']
+Villager 1 has selected a new action: gather_water
+Villager 2 has selected a new action: gather_herbs
+Villager 3 has selected a new action: forge
+food : (depleted, 0)
+wood : (full, 1080.0)
+water : (depleted, 5.0)
+herbs : (depleted, 57.5)
+stone : (full, 1401.0)
+tools : (depleted, 7.5)
+metal : (depleted, 0)
+Actions to execute: 
+['gather_herbs', 'gather_water', 'gather_herbs', 'forge', 'farm', 'farm']
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Day 42
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+{'food': 'depleted', 'wood': 'full', 'water': 'depleted', 'herbs': 'depleted', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs herbs.
+Village needs food.
+Village needs water
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_water', 'gather_food', 'farm', 'hunt', 'gather_herbs']
+[1, 1, 10, 10, 10, 10, 10]
+['gather_herbs', 'gather_food', 'forge', 'gather_herbs', 'gather_herbs', 'mine']
+food : (depleted, 7.5)
+wood : (full, 1080.0)
+water : (depleted, 5.0)
+herbs : (depleted, 52.5)
+stone : (full, 1401.0)
+tools : (depleted, 15.0)
+metal : (depleted, 0)
+Actions to execute: 
+['gather_herbs', 'gather_food', 'gather_herbs', 'gather_herbs', 'gather_herbs', 'mine']
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager  sleeping.
+Villager is taking a nap.
+Day 43
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager is socializing.
+Villager is healing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+{'food': 'depleted', 'wood': 'full', 'water': 'depleted', 'herbs': 'low', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs herbs.
+Village needs food.
+Village needs water
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_water', 'gather_food', 'farm', 'hunt', 'gather_herbs']
+[1, 1, 10, 10, 10, 10, 10]
+['mine', 'gather_herbs', 'gather_water', 'gather_food', 'farm', 'hunt']
+Villager 0 has selected a new action: gather_water
+Villager 1 has selected a new action: mine
+Villager 5 has selected a new action: gather_herbs
+food : (depleted, 12.5)
+wood : (full, 1080.0)
+water : (depleted, 5.0)
+herbs : (low, 137.5)
+stone : (full, 1416.0)
+tools : (depleted, 13.0)
+metal : (depleted, 7.5)
+Actions to execute: 
+['gather_water', 'mine', 'gather_water', 'gather_food', 'farm', 'gather_herbs']
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is healing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is healing.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Day 44
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager is socializing.
+Villager is healing.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+{'food': 'depleted', 'wood': 'full', 'water': 'depleted', 'herbs': 'low', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs herbs.
+Village needs food.
+Village needs water
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_water', 'gather_food', 'farm', 'hunt', 'gather_herbs']
+[1, 1, 10, 10, 10, 10, 10]
+['gather_herbs', 'hunt', 'gather_herbs', 'gather_herbs', 'gather_water', 'gather_food']
+Villager 0 has selected a new action: gather_water
+Villager 1 has selected a new action: forge
+Villager 2 has selected a new action: forge
+Villager 3 has selected a new action: mine
+Villager 4 has selected a new action: forge
+Villager 5 has selected a new action: mine
+food : (depleted, 27.5)
+wood : (full, 1080.0)
+water : (depleted, 5.0)
+herbs : (low, 122.5)
+stone : (full, 1416.0)
+tools : (depleted, 9.0)
+metal : (depleted, 7.5)
+Actions to execute: 
+['gather_water', 'forge', 'forge', 'mine', 'forge', 'mine']
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is healing.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager is socializing.
+Day 45
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager need eating.
+Villager is socializing.
+Villager is healing.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager is healing.
+Villager is socializing.
+Villager is healing.
+Villager is socializing.
+{'food': 'depleted', 'wood': 'full', 'water': 'depleted', 'herbs': 'depleted', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs herbs.
+Village needs food.
+Village needs water
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_water', 'gather_food', 'farm', 'hunt', 'gather_herbs']
+[1, 1, 10, 10, 10, 10, 10]
+['forge', 'gather_food', 'gather_water', 'mine', 'gather_food', 'forge']
+Villager 1 has selected a new action: forge
+Villager 2 has selected a new action: mine
+food : (depleted, 12.5)
+wood : (full, 1080.0)
+water : (depleted, 12.5)
+herbs : (depleted, 32.5)
+stone : (full, 1446.0)
+tools : (depleted, 17.5)
+metal : (depleted, 7.5)
+Actions to execute: 
+['forge', 'forge', 'mine', 'gather_herbs', 'gather_food', 'gather_herbs']
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Day 46
+Villager is healing.
+Villager need eating.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+Villager is healing.
+Villager need eating.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+{'food': 'depleted', 'wood': 'full', 'water': 'depleted', 'herbs': 'depleted', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs herbs.
+Village needs food.
+Village needs water
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_water', 'gather_food', 'farm', 'hunt', 'gather_herbs']
+[1, 1, 10, 10, 10, 10, 10]
+['gather_food', 'gather_herbs', 'gather_water', 'forge', 'gather_water', 'gather_food']
+food : (depleted, 5.0)
+wood : (full, 1080.0)
+water : (depleted, 12.5)
+herbs : (depleted, 2.5)
+stone : (full, 1461.0)
+tools : (depleted, 25.5)
+metal : (depleted, 7.5)
+Actions to execute: 
+['gather_herbs', 'gather_herbs', 'gather_water', 'gather_herbs', 'gather_water', 'gather_herbs']
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is healing.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is healing.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is healing.
+Villager need eating.
+Day 47
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is healing.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+{'food': 'depleted', 'wood': 'full', 'water': 'depleted', 'herbs': 'low', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs herbs.
+Village needs food.
+Village needs water
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_water', 'gather_food', 'farm', 'hunt', 'gather_herbs']
+[1, 1, 10, 10, 10, 10, 10]
+['gather_herbs', 'forge', 'gather_water', 'hunt', 'hunt', 'hunt']
+food : (depleted, 5.0)
+wood : (full, 1080.0)
+water : (depleted, 7.5)
+herbs : (low, 82.5)
+stone : (full, 1461.0)
+tools : (depleted, 25.5)
+metal : (depleted, 7.5)
+Actions to execute: 
+['gather_herbs', 'forge', 'gather_herbs', 'gather_herbs', 'gather_herbs', 'hunt']
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+Villager Villager 0 has died
+energy : (exhausted, 0)
+hunger : (starving, 0)
+thirst : (thirsty, 20)
+health : (injured, 25.0)
+mood : (sad, 12.5)
+age : (adult, 46)
+gender : (female, 1)
+Day 48
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+{'food': 'depleted', 'wood': 'full', 'water': 'depleted', 'herbs': 'low', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs herbs.
+Village needs food.
+Village needs water
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_water', 'gather_food', 'farm', 'hunt', 'gather_herbs']
+[1, 1, 10, 10, 10, 10, 10]
+['gather_water', 'gather_water', 'hunt', 'mine', 'forge']
+food : (depleted, 12.5)
+wood : (full, 1080.0)
+water : (depleted, 7.5)
+herbs : (low, 112.5)
+stone : (full, 1461.0)
+tools : (depleted, 23.0)
+metal : (depleted, 0)
+Actions to execute: 
+['gather_herbs', 'gather_water', 'hunt', 'mine', 'forge']
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is healing.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+Villager Villager 1 has died
+energy : (tired, 15)
+hunger : (starving, 0)
+thirst : (full, 70.0)
+health : (injured, 25.0)
+mood : (sad, 2.5)
+age : (child, 17)
+gender : (female, 1)
+Day 49
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+{'food': 'depleted', 'wood': 'full', 'water': 'depleted', 'herbs': 'normal', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs food.
+Village needs water
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_water', 'gather_food', 'farm', 'hunt']
+[1, 1, 10, 10, 10, 10]
+['farm', 'mine', 'gather_water', 'gather_food']
+food : (depleted, 12.5)
+wood : (full, 1080.0)
+water : (depleted, 2.5)
+herbs : (normal, 132.5)
+stone : (full, 1471.0)
+tools : (depleted, 19.0)
+metal : (depleted, 0)
+Actions to execute: 
+['farm', 'hunt', 'gather_water', 'hunt']
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager Villager 2 has died
+energy : (normal, 30)
+hunger : (starving, 0)
+thirst : (dehidrated, 0)
+health : (average, 30.0)
+mood : (neutral, 35.0)
+age : (child, 5)
+gender : (male, 0)
+Villager Villager 8 has died
+energy : (normal, 45.0)
+hunger : (starving, 0)
+thirst : (dehidrated, 0)
+health : (injured, 15.0)
+mood : (sad, 22.5)
+age : (adult, 50)
+gender : (female, 1)
+Day 50
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager  sleeping.
+Villager is taking a nap.
+{'food': 'depleted', 'wood': 'full', 'water': 'depleted', 'herbs': 'normal', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs food.
+Village needs water
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_water', 'gather_food', 'farm', 'hunt']
+[1, 1, 10, 10, 10, 10]
+['mine', 'forge']
+food : (depleted, 12.5)
+wood : (full, 1080.0)
+water : (depleted, 2.5)
+herbs : (normal, 117.5)
+stone : (full, 1471.0)
+tools : (depleted, 9.0)
+metal : (depleted, 0)
+Actions to execute: 
+['mine', 'hunt']
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Day 51
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager is socializing.
+{'food': 'low', 'wood': 'full', 'water': 'depleted', 'herbs': 'normal', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs food.
+Village needs water
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_water', 'gather_food', 'farm', 'hunt']
+[1, 1, 10, 10, 10, 10]
+['gather_water', 'hunt']
+Villager 1 has selected a new action: gather_food
+food : (low, 42.5)
+wood : (full, 1080.0)
+water : (depleted, 2.5)
+herbs : (normal, 117.5)
+stone : (full, 1481.0)
+tools : (depleted, 0)
+metal : (depleted, 5)
+Actions to execute: 
+['gather_water', 'gather_food']
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is socializing.
+Day 52
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager is drinking water.
+Villager is healing.
+Villager is socializing.
+{'food': 'low', 'wood': 'full', 'water': 'depleted', 'herbs': 'normal', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs food.
+Village needs water
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_water', 'gather_food', 'farm', 'hunt']
+[1, 1, 10, 10, 10, 10]
+['gather_water', 'hunt']
+food : (low, 47.5)
+wood : (full, 1080.0)
+water : (depleted, 17.5)
+herbs : (normal, 92.5)
+stone : (full, 1481.0)
+tools : (depleted, 0)
+metal : (depleted, 5)
+Actions to execute: 
+['hunt', 'hunt']
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is healing.
+Day 53
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+villager is eating
+{'food': 'normal', 'wood': 'full', 'water': 'depleted', 'herbs': 'low', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs herbs.
+Village needs water
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_water', 'gather_herbs']
+[1, 1, 10, 10]
+['gather_water', 'forge']
+Villager 0 has selected a new action: gather_water
+food : (normal, 92.5)
+wood : (full, 1080.0)
+water : (depleted, 2.5)
+herbs : (low, 57.5)
+stone : (full, 1481.0)
+tools : (depleted, 0)
+metal : (depleted, 5)
+Actions to execute: 
+['gather_water', 'forge']
+Villager is drinking water.
+Villager is healing.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Day 54
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager is socializing.
+{'food': 'normal', 'wood': 'full', 'water': 'low', 'herbs': 'low', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs herbs.
+Village needs water
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_water', 'gather_herbs']
+[1, 1, 10, 10]
+['gather_water', 'gather_water']
+Villager 0 has selected a new action: gather_water
+food : (normal, 62.5)
+wood : (full, 1080.0)
+water : (low, 20.0)
+herbs : (low, 37.5)
+stone : (full, 1481.0)
+tools : (depleted, 7.5)
+metal : (depleted, 0)
+Actions to execute: 
+['gather_water', 'gather_water']
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Day 55
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager is socializing.
+{'food': 'low', 'wood': 'full', 'water': 'normal', 'herbs': 'low', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs herbs.
+Village needs food.
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_food', 'farm', 'hunt', 'gather_herbs']
+[1, 1, 10, 10, 10, 10]
+['hunt', 'gather_herbs']
+Villager 0 has selected a new action: forge
+food : (low, 47.5)
+wood : (full, 1080.0)
+water : (normal, 100.0)
+herbs : (low, 27.5)
+stone : (full, 1481.0)
+tools : (depleted, 7.5)
+metal : (depleted, 0)
+Actions to execute: 
+['forge', 'gather_herbs']
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Day 56
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager need eating.
+villager is eating
+Villager is socializing.
+{'food': 'low', 'wood': 'full', 'water': 'normal', 'herbs': 'low', 'stone': 'full', 'tools': 'low', 'metal': 'depleted'}
+Village needs herbs.
+Village needs food.
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_food', 'farm', 'hunt', 'gather_herbs']
+[1, 1, 10, 10, 10, 10]
+['gather_herbs', 'gather_herbs']
+Villager 1 has selected a new action: farm
+food : (low, 32.5)
+wood : (full, 1080.0)
+water : (normal, 85.0)
+herbs : (low, 57.5)
+stone : (full, 1481.0)
+tools : (low, 15.0)
+metal : (depleted, 0)
+Actions to execute: 
+['gather_herbs', 'farm']
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Day 57
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager is socializing.
+Villager is healing.
+Villager is socializing.
+{'food': 'low', 'wood': 'full', 'water': 'normal', 'herbs': 'normal', 'stone': 'full', 'tools': 'low', 'metal': 'depleted'}
+Village needs food.
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_food', 'farm', 'hunt']
+[1, 1, 10, 10, 10]
+['farm', 'hunt']
+Villager 0 has selected a new action: mine
+food : (low, 32.5)
+wood : (full, 1080.0)
+water : (normal, 85.0)
+herbs : (normal, 67.5)
+stone : (full, 1481.0)
+tools : (low, 15.0)
+metal : (depleted, 0)
+Actions to execute: 
+['mine', 'hunt']
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Day 58
+Villager is drinking water.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+{'food': 'normal', 'wood': 'full', 'water': 'normal', 'herbs': 'low', 'stone': 'full', 'tools': 'low', 'metal': 'depleted'}
+Village needs herbs.
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_herbs']
+[1, 1, 10]
+['gather_herbs', 'gather_herbs']
+food : (normal, 62.5)
+wood : (full, 1080.0)
+water : (normal, 77.5)
+herbs : (low, 57.5)
+stone : (full, 1496.0)
+tools : (low, 10.5)
+metal : (depleted, 7.5)
+Actions to execute: 
+['gather_herbs', 'gather_herbs']
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Day 59
+Villager is socializing.
+Villager is drinking water.
+Villager need eating.
+villager is eating
+Villager is socializing.
+{'food': 'low', 'wood': 'full', 'water': 'normal', 'herbs': 'normal', 'stone': 'full', 'tools': 'low', 'metal': 'depleted'}
+Village needs food.
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_food', 'farm', 'hunt']
+[1, 1, 10, 10, 10]
+['gather_food', 'gather_food']
+food : (low, 47.5)
+wood : (full, 1080.0)
+water : (normal, 62.5)
+herbs : (normal, 117.5)
+stone : (full, 1496.0)
+tools : (low, 10.5)
+metal : (depleted, 7.5)
+Actions to execute: 
+['gather_food', 'gather_food']
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Day 60
+Villager is healing.
+Villager is socializing.
+Villager is healing.
+Villager need eating.
+villager is eating
+{'food': 'low', 'wood': 'full', 'water': 'normal', 'herbs': 'normal', 'stone': 'full', 'tools': 'low', 'metal': 'depleted'}
+Village needs food.
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_food', 'farm', 'hunt']
+[1, 1, 10, 10, 10]
+['hunt', 'gather_food']
+Villager 0 has selected a new action: forge
+food : (low, 47.5)
+wood : (full, 1080.0)
+water : (normal, 62.5)
+herbs : (normal, 97.5)
+stone : (full, 1496.0)
+tools : (low, 10.5)
+metal : (depleted, 7.5)
+Actions to execute: 
+['forge', 'gather_food']
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager need eating.
+villager is eating
+Day 61
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+{'food': 'low', 'wood': 'full', 'water': 'normal', 'herbs': 'normal', 'stone': 'full', 'tools': 'low', 'metal': 'depleted'}
+Village needs food.
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_food', 'farm', 'hunt']
+[1, 1, 10, 10, 10]
+['forge', 'mine']
+food : (low, 45.0)
+wood : (full, 1080.0)
+water : (normal, 62.5)
+herbs : (normal, 97.5)
+stone : (full, 1496.0)
+tools : (low, 15.5)
+metal : (depleted, 0)
+Actions to execute: 
+['forge', 'mine']
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Day 62
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is healing.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+{'food': 'low', 'wood': 'full', 'water': 'low', 'herbs': 'normal', 'stone': 'full', 'tools': 'low', 'metal': 'depleted'}
+Village needs food.
+Village needs water
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_water', 'gather_food', 'farm', 'hunt']
+[1, 1, 10, 10, 10, 10]
+['gather_water', 'farm']
+Villager 0 has selected a new action: forge
+Villager 1 has selected a new action: farm
+food : (low, 30.0)
+wood : (full, 1080.0)
+water : (low, 32.5)
+herbs : (normal, 77.5)
+stone : (full, 1511.0)
+tools : (low, 18.5)
+metal : (depleted, 7.5)
+Actions to execute: 
+['forge', 'farm']
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager is drinking water.
+Villager is socializing.
+Day 63
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+{'food': 'normal', 'wood': 'full', 'water': 'depleted', 'herbs': 'normal', 'stone': 'full', 'tools': 'low', 'metal': 'depleted'}
+Village needs water
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_water']
+[1, 1, 10]
+['gather_water', 'gather_water']
+food : (normal, 75.0)
+wood : (full, 1080.0)
+water : (depleted, 17.5)
+herbs : (normal, 62.5)
+stone : (full, 1511.0)
+tools : (low, 23.5)
+metal : (depleted, 0)
+Actions to execute: 
+['gather_water', 'gather_water']
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Day 64
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+{'food': 'normal', 'wood': 'full', 'water': 'normal', 'herbs': 'normal', 'stone': 'full', 'tools': 'low', 'metal': 'depleted'}
+Village needs metal
+Village needs tools
+['forge', 'mine']
+[1, 1]
+['mine', 'forge']
+food : (normal, 75.0)
+wood : (full, 1080.0)
+water : (normal, 117.5)
+herbs : (normal, 62.5)
+stone : (full, 1511.0)
+tools : (low, 23.5)
+metal : (depleted, 0)
+Actions to execute: 
+['mine', 'forge']
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Day 65
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is healing.
+Villager is socializing.
+Villager is drinking water.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+{'food': 'normal', 'wood': 'full', 'water': 'normal', 'herbs': 'low', 'stone': 'full', 'tools': 'low', 'metal': 'depleted'}
+Village needs herbs.
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_herbs']
+[1, 1, 10]
+['gather_herbs', 'gather_herbs']
+food : (normal, 67.5)
+wood : (full, 1080.0)
+water : (normal, 87.5)
+herbs : (low, 47.5)
+stone : (full, 1511.0)
+tools : (low, 24.5)
+metal : (depleted, 0)
+Actions to execute: 
+['gather_herbs', 'gather_herbs']
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Day 66
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager  sleeping.
+Villager is taking a nap.
+{'food': 'normal', 'wood': 'full', 'water': 'normal', 'herbs': 'normal', 'stone': 'full', 'tools': 'low', 'metal': 'depleted'}
+Village needs metal
+Village needs tools
+['forge', 'mine']
+[1, 1]
+['mine', 'forge']
+food : (normal, 60.0)
+wood : (full, 1080.0)
+water : (normal, 87.5)
+herbs : (normal, 127.5)
+stone : (full, 1511.0)
+tools : (low, 24.5)
+metal : (depleted, 0)
+Actions to execute: 
+['mine', 'forge']
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Day 67
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager is socializing.
+{'food': 'normal', 'wood': 'full', 'water': 'normal', 'herbs': 'normal', 'stone': 'full', 'tools': 'low', 'metal': 'depleted'}
+Village needs metal
+Village needs tools
+['forge', 'mine']
+[1, 1]
+['mine', 'mine']
+food : (normal, 60.0)
+wood : (full, 1080.0)
+water : (normal, 87.5)
+herbs : (normal, 112.5)
+stone : (full, 1521.0)
+tools : (low, 25.5)
+metal : (depleted, 0)
+Actions to execute: 
+['mine', 'mine']
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Day 68
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is healing.
+{'food': 'normal', 'wood': 'full', 'water': 'low', 'herbs': 'normal', 'stone': 'full', 'tools': 'low', 'metal': 'depleted'}
+Village needs water
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_water']
+[1, 1, 10]
+['gather_water', 'forge']
+Villager 1 has selected a new action: gather_water
+food : (normal, 60.0)
+wood : (full, 1080.0)
+water : (low, 50.0)
+herbs : (normal, 87.5)
+stone : (full, 1531.0)
+tools : (low, 17.5)
+metal : (depleted, 5)
+Actions to execute: 
+['gather_water', 'gather_water']
+Villager is drinking water.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is healing.
+Villager is socializing.
+Day 69
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is healing.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+{'food': 'low', 'wood': 'full', 'water': 'normal', 'herbs': 'low', 'stone': 'full', 'tools': 'low', 'metal': 'depleted'}
+Village needs herbs.
+Village needs food.
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_food', 'farm', 'hunt', 'gather_herbs']
+[1, 1, 10, 10, 10, 10]
+['gather_herbs', 'farm']
+food : (low, 45.0)
+wood : (full, 1080.0)
+water : (normal, 92.5)
+herbs : (low, 52.5)
+stone : (full, 1531.0)
+tools : (low, 17.5)
+metal : (depleted, 5)
+Actions to execute: 
+['gather_herbs', 'farm']
+Villager is drinking water.
+Villager is healing.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+villager is eating
+Day 70
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+{'food': 'depleted', 'wood': 'full', 'water': 'normal', 'herbs': 'normal', 'stone': 'full', 'tools': 'low', 'metal': 'depleted'}
+Village needs food.
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_food', 'farm', 'hunt']
+[1, 1, 10, 10, 10]
+['gather_food', 'gather_food']
+food : (depleted, 15.0)
+wood : (full, 1080.0)
+water : (normal, 77.5)
+herbs : (normal, 92.5)
+stone : (full, 1531.0)
+tools : (low, 17.5)
+metal : (depleted, 5)
+Actions to execute: 
+['gather_food', 'hunt']
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Day 71
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager need eating.
+villager is eating
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+{'food': 'depleted', 'wood': 'full', 'water': 'normal', 'herbs': 'normal', 'stone': 'full', 'tools': 'low', 'metal': 'depleted'}
+Village needs food.
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_food', 'farm', 'hunt']
+[1, 1, 10, 10, 10]
+['gather_food', 'forge']
+food : (depleted, 5.0)
+wood : (full, 1080.0)
+water : (normal, 70.0)
+herbs : (normal, 77.5)
+stone : (full, 1531.0)
+tools : (low, 12.5)
+metal : (depleted, 5)
+Actions to execute: 
+['hunt', 'forge']
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Day 72
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager is drinking water.
+Villager is healing.
+Villager need eating.
+Villager is socializing.
+{'food': 'depleted', 'wood': 'full', 'water': 'low', 'herbs': 'low', 'stone': 'full', 'tools': 'low', 'metal': 'depleted'}
+Village needs herbs.
+Village needs food.
+Village needs water
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_water', 'gather_food', 'farm', 'hunt', 'gather_herbs']
+[1, 1, 10, 10, 10, 10, 10]
+['hunt', 'farm']
+food : (depleted, 0)
+wood : (full, 1080.0)
+water : (low, 55.0)
+herbs : (low, 47.5)
+stone : (full, 1531.0)
+tools : (low, 12.5)
+metal : (depleted, 0)
+Actions to execute: 
+['gather_herbs', 'farm']
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager need eating.
+Day 73
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+{'food': 'depleted', 'wood': 'full', 'water': 'low', 'herbs': 'low', 'stone': 'full', 'tools': 'low', 'metal': 'depleted'}
+Village needs herbs.
+Village needs food.
+Village needs water
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_water', 'gather_food', 'farm', 'hunt', 'gather_herbs']
+[1, 1, 10, 10, 10, 10, 10]
+['gather_water', 'gather_food']
+food : (depleted, 0)
+wood : (full, 1080.0)
+water : (low, 47.5)
+herbs : (low, 37.5)
+stone : (full, 1531.0)
+tools : (low, 12.5)
+metal : (depleted, 0)
+Actions to execute: 
+['gather_herbs', 'gather_herbs']
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+Day 74
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+{'food': 'depleted', 'wood': 'full', 'water': 'low', 'herbs': 'normal', 'stone': 'full', 'tools': 'low', 'metal': 'depleted'}
+Village needs food.
+Village needs water
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_water', 'gather_food', 'farm', 'hunt']
+[1, 1, 10, 10, 10, 10]
+['forge', 'gather_water']
+food : (depleted, 0)
+wood : (full, 1080.0)
+water : (low, 47.5)
+herbs : (normal, 97.5)
+stone : (full, 1531.0)
+tools : (low, 12.5)
+metal : (depleted, 0)
+Actions to execute: 
+['hunt', 'gather_water']
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Day 75
+Villager is healing.
+Villager need eating.
+Villager is socializing.
+Villager is healing.
+Villager need eating.
+Villager is socializing.
+{'food': 'depleted', 'wood': 'full', 'water': 'low', 'herbs': 'normal', 'stone': 'full', 'tools': 'low', 'metal': 'depleted'}
+Village needs food.
+Village needs water
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_water', 'gather_food', 'farm', 'hunt']
+[1, 1, 10, 10, 10, 10]
+['hunt', 'mine']
+Villager 1 has selected a new action: gather_food
+food : (depleted, 0)
+wood : (full, 1080.0)
+water : (low, 47.5)
+herbs : (normal, 67.5)
+stone : (full, 1531.0)
+tools : (low, 10.0)
+metal : (depleted, 0)
+Actions to execute: 
+['hunt', 'gather_food']
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Day 76
+Villager is drinking water.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager is healing.
+Villager need eating.
+Villager is socializing.
+{'food': 'depleted', 'wood': 'full', 'water': 'low', 'herbs': 'low', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs herbs.
+Village needs food.
+Village needs water
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_water', 'gather_food', 'farm', 'hunt', 'gather_herbs']
+[1, 1, 10, 10, 10, 10, 10]
+['hunt', 'farm']
+Villager 1 has selected a new action: gather_herbs
+food : (depleted, 0)
+wood : (full, 1080.0)
+water : (low, 25.0)
+herbs : (low, 37.5)
+stone : (full, 1531.0)
+tools : (depleted, 7.5)
+metal : (depleted, 0)
+Actions to execute: 
+['hunt', 'gather_herbs']
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Day 77
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+{'food': 'depleted', 'wood': 'full', 'water': 'depleted', 'herbs': 'normal', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs food.
+Village needs water
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_water', 'gather_food', 'farm', 'hunt']
+[1, 1, 10, 10, 10, 10]
+['hunt', 'gather_water']
+Villager 0 has selected a new action: gather_food
+food : (depleted, 0)
+wood : (full, 1080.0)
+water : (depleted, 2.5)
+herbs : (normal, 72.5)
+stone : (full, 1531.0)
+tools : (depleted, 2.5)
+metal : (depleted, 0)
+Actions to execute: 
+['gather_food', 'gather_water']
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager need eating.
+Day 78
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+{'food': 'depleted', 'wood': 'full', 'water': 'depleted', 'herbs': 'low', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs herbs.
+Village needs food.
+Village needs water
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_water', 'gather_food', 'farm', 'hunt', 'gather_herbs']
+[1, 1, 10, 10, 10, 10, 10]
+['mine', 'hunt']
+food : (depleted, 12.5)
+wood : (full, 1080.0)
+water : (depleted, 5.0)
+herbs : (low, 42.5)
+stone : (full, 1531.0)
+tools : (depleted, 2.5)
+metal : (depleted, 0)
+Actions to execute: 
+['gather_herbs', 'hunt']
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+villager is eating
+Day 79
+Villager is healing.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+{'food': 'low', 'wood': 'full', 'water': 'depleted', 'herbs': 'low', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs herbs.
+Village needs food.
+Village needs water
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_water', 'gather_food', 'farm', 'hunt', 'gather_herbs']
+[1, 1, 10, 10, 10, 10, 10]
+['hunt', 'gather_food']
+food : (low, 50.0)
+wood : (full, 1080.0)
+water : (depleted, 5.0)
+herbs : (low, 42.5)
+stone : (full, 1531.0)
+tools : (depleted, 0)
+metal : (depleted, 0)
+Actions to execute: 
+['gather_herbs', 'gather_herbs']
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Day 80
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+{'food': 'low', 'wood': 'full', 'water': 'depleted', 'herbs': 'normal', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs food.
+Village needs water
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_water', 'gather_food', 'farm', 'hunt']
+[1, 1, 10, 10, 10, 10]
+['hunt', 'gather_water']
+food : (low, 27.5)
+wood : (full, 1080.0)
+water : (depleted, 5.0)
+herbs : (normal, 77.5)
+stone : (full, 1531.0)
+tools : (depleted, 0)
+metal : (depleted, 0)
+Actions to execute: 
+['hunt', 'gather_water']
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Day 81
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+{'food': 'depleted', 'wood': 'full', 'water': 'depleted', 'herbs': 'low', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs herbs.
+Village needs food.
+Village needs water
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_water', 'gather_food', 'farm', 'hunt', 'gather_herbs']
+[1, 1, 10, 10, 10, 10, 10]
+['hunt', 'gather_water']
+food : (depleted, 12.5)
+wood : (full, 1080.0)
+water : (depleted, 5.0)
+herbs : (low, 47.5)
+stone : (full, 1531.0)
+tools : (depleted, 0)
+metal : (depleted, 0)
+Actions to execute: 
+['gather_herbs', 'gather_water']
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Day 82
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+{'food': 'depleted', 'wood': 'full', 'water': 'depleted', 'herbs': 'normal', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs food.
+Village needs water
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_water', 'gather_food', 'farm', 'hunt']
+[1, 1, 10, 10, 10, 10]
+['forge', 'farm']
+food : (depleted, 12.5)
+wood : (full, 1080.0)
+water : (depleted, 5.0)
+herbs : (normal, 72.5)
+stone : (full, 1531.0)
+tools : (depleted, 0)
+metal : (depleted, 0)
+Actions to execute: 
+['forge', 'hunt']
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Day 83
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+{'food': 'depleted', 'wood': 'full', 'water': 'depleted', 'herbs': 'low', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs herbs.
+Village needs food.
+Village needs water
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_water', 'gather_food', 'farm', 'hunt', 'gather_herbs']
+[1, 1, 10, 10, 10, 10, 10]
+['hunt', 'gather_herbs']
+food : (depleted, 12.5)
+wood : (full, 1080.0)
+water : (depleted, 5.0)
+herbs : (low, 47.5)
+stone : (full, 1531.0)
+tools : (depleted, 0)
+metal : (depleted, 0)
+Actions to execute: 
+['hunt', 'gather_herbs']
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+Day 84
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+{'food': 'depleted', 'wood': 'full', 'water': 'depleted', 'herbs': 'normal', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs food.
+Village needs water
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_water', 'gather_food', 'farm', 'hunt']
+[1, 1, 10, 10, 10, 10]
+['mine', 'forge']
+food : (depleted, 12.5)
+wood : (full, 1080.0)
+water : (depleted, 5.0)
+herbs : (normal, 67.5)
+stone : (full, 1531.0)
+tools : (depleted, 0)
+metal : (depleted, 0)
+Actions to execute: 
+['hunt', 'hunt']
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Day 85
+Villager is healing.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+{'food': 'normal', 'wood': 'full', 'water': 'depleted', 'herbs': 'low', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs herbs.
+Village needs water
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_water', 'gather_herbs']
+[1, 1, 10, 10]
+['gather_water', 'gather_water']
+food : (normal, 65.0)
+wood : (full, 1080.0)
+water : (depleted, 5.0)
+herbs : (low, 52.5)
+stone : (full, 1531.0)
+tools : (depleted, 0)
+metal : (depleted, 0)
+Actions to execute: 
+['gather_water', 'gather_water']
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is healing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is socializing.
+Day 86
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager need eating.
+villager is eating
+Villager is drinking water.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+{'food': 'low', 'wood': 'full', 'water': 'low', 'herbs': 'low', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs herbs.
+Village needs food.
+Village needs water
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_water', 'gather_food', 'farm', 'hunt', 'gather_herbs']
+[1, 1, 10, 10, 10, 10, 10]
+['gather_herbs', 'gather_food']
+Villager 0 has selected a new action: gather_water
+Villager 1 has selected a new action: gather_food
+food : (low, 27.5)
+wood : (full, 1080.0)
+water : (low, 52.5)
+herbs : (low, 37.5)
+stone : (full, 1531.0)
+tools : (depleted, 0)
+metal : (depleted, 0)
+Actions to execute: 
+['gather_water', 'gather_food']
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager need eating.
+villager is eating
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Day 87
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+{'food': 'low', 'wood': 'full', 'water': 'normal', 'herbs': 'low', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs herbs.
+Village needs food.
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_food', 'farm', 'hunt', 'gather_herbs']
+[1, 1, 10, 10, 10, 10]
+['gather_herbs', 'gather_food']
+Villager 0 has selected a new action: forge
+food : (low, 20.0)
+wood : (full, 1080.0)
+water : (normal, 62.5)
+herbs : (low, 27.5)
+stone : (full, 1531.0)
+tools : (depleted, 0)
+metal : (depleted, 0)
+Actions to execute: 
+['forge', 'gather_food']
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Day 88
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager is socializing.
+Villager is socializing.
+{'food': 'low', 'wood': 'full', 'water': 'normal', 'herbs': 'depleted', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs herbs.
+Village needs food.
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_food', 'farm', 'hunt', 'gather_herbs']
+[1, 1, 10, 10, 10, 10]
+['mine', 'gather_food']
+food : (low, 40.0)
+wood : (full, 1080.0)
+water : (normal, 62.5)
+herbs : (depleted, 7.5)
+stone : (full, 1531.0)
+tools : (depleted, 5)
+metal : (depleted, 0)
+Actions to execute: 
+['mine', 'gather_food']
+Villager  sleeping.
+Villager is taking a nap.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Day 89
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager is socializing.
+{'food': 'low', 'wood': 'full', 'water': 'normal', 'herbs': 'depleted', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs herbs.
+Village needs food.
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_food', 'farm', 'hunt', 'gather_herbs']
+[1, 1, 10, 10, 10, 10]
+['gather_herbs', 'mine']
+Villager 1 has selected a new action: gather_food
+food : (low, 52.5)
+wood : (full, 1080.0)
+water : (normal, 62.5)
+herbs : (depleted, 7.5)
+stone : (full, 1531.0)
+tools : (depleted, 0)
+metal : (depleted, 0)
+Actions to execute: 
+['gather_herbs', 'gather_food']
+Villager is healing.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Day 90
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is socializing.
+Villager is drinking water.
+Villager is healing.
+{'food': 'normal', 'wood': 'full', 'water': 'low', 'herbs': 'low', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs herbs.
+Village needs water
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_water', 'gather_herbs']
+[1, 1, 10, 10]
+['gather_water', 'gather_water']
+Villager 0 has selected a new action: forge
+Villager 1 has selected a new action: gather_herbs
+food : (normal, 72.5)
+wood : (full, 1080.0)
+water : (low, 25.0)
+herbs : (low, 32.5)
+stone : (full, 1531.0)
+tools : (depleted, 0)
+metal : (depleted, 0)
+Actions to execute: 
+['forge', 'gather_herbs']
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Day 91
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager is socializing.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+{'food': 'low', 'wood': 'full', 'water': 'depleted', 'herbs': 'depleted', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs herbs.
+Village needs food.
+Village needs water
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_water', 'gather_food', 'farm', 'hunt', 'gather_herbs']
+[1, 1, 10, 10, 10, 10, 10]
+['farm', 'gather_food']
+Villager 0 has selected a new action: mine
+food : (low, 57.5)
+wood : (full, 1080.0)
+water : (depleted, 10.0)
+herbs : (depleted, 7.5)
+stone : (full, 1531.0)
+tools : (depleted, 5)
+metal : (depleted, 0)
+Actions to execute: 
+['mine', 'gather_food']
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Day 92
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+{'food': 'normal', 'wood': 'full', 'water': 'depleted', 'herbs': 'depleted', 'stone': 'full', 'tools': 'depleted', 'metal': 'depleted'}
+Village needs herbs.
+Village needs water
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_water', 'gather_herbs']
+[1, 1, 10, 10]
+['forge', 'mine']
+food : (normal, 72.5)
+wood : (full, 1080.0)
+water : (depleted, 10.0)
+herbs : (depleted, 7.5)
+stone : (full, 1546.0)
+tools : (depleted, 3.0)
+metal : (depleted, 7.5)
+Actions to execute: 
+['gather_herbs', 'mine']
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Day 93
+Villager is healing.
+Villager is socializing.
+Villager is socializing.
+{'food': 'normal', 'wood': 'full', 'water': 'depleted', 'herbs': 'low', 'stone': 'full', 'tools': 'depleted', 'metal': 'low'}
+Village needs herbs.
+Village needs water
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_water', 'gather_herbs']
+[1, 1, 10, 10]
+['mine', 'mine']
+food : (normal, 72.5)
+wood : (full, 1080.0)
+water : (depleted, 10.0)
+herbs : (low, 27.5)
+stone : (full, 1556.0)
+tools : (depleted, 0)
+metal : (low, 12.5)
+Actions to execute: 
+['gather_herbs', 'gather_herbs']
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager  sleeping.
+Villager is taking a nap.
+Day 94
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+{'food': 'low', 'wood': 'full', 'water': 'depleted', 'herbs': 'normal', 'stone': 'full', 'tools': 'depleted', 'metal': 'low'}
+Village needs food.
+Village needs water
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_water', 'gather_food', 'farm', 'hunt']
+[1, 1, 10, 10, 10, 10]
+['gather_food', 'gather_food']
+Villager 1 has selected a new action: gather_food
+food : (low, 42.5)
+wood : (full, 1080.0)
+water : (depleted, 10.0)
+herbs : (normal, 87.5)
+stone : (full, 1556.0)
+tools : (depleted, 0)
+metal : (low, 12.5)
+Actions to execute: 
+['hunt', 'gather_food']
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Day 95
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+Villager is socializing.
+{'food': 'low', 'wood': 'full', 'water': 'depleted', 'herbs': 'normal', 'stone': 'full', 'tools': 'depleted', 'metal': 'low'}
+Village needs food.
+Village needs water
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_water', 'gather_food', 'farm', 'hunt']
+[1, 1, 10, 10, 10, 10]
+['farm', 'gather_food']
+Villager 0 has selected a new action: gather_water
+food : (low, 47.5)
+wood : (full, 1080.0)
+water : (depleted, 10.0)
+herbs : (normal, 67.5)
+stone : (full, 1556.0)
+tools : (depleted, 0)
+metal : (low, 12.5)
+Actions to execute: 
+['gather_water', 'hunt']
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Day 96
+Villager is socializing.
+Villager is healing.
+{'food': 'normal', 'wood': 'full', 'water': 'depleted', 'herbs': 'low', 'stone': 'full', 'tools': 'depleted', 'metal': 'low'}
+Village needs herbs.
+Village needs water
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_water', 'gather_herbs']
+[1, 1, 10, 10]
+['mine', 'gather_herbs']
+food : (normal, 77.5)
+wood : (full, 1080.0)
+water : (depleted, 10.0)
+herbs : (low, 52.5)
+stone : (full, 1556.0)
+tools : (depleted, 0)
+metal : (low, 12.5)
+Actions to execute: 
+['mine', 'gather_herbs']
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager is healing.
+Day 97
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+Villager is healing.
+Villager need eating.
+villager is eating
+Villager is socializing.
+{'food': 'low', 'wood': 'full', 'water': 'depleted', 'herbs': 'low', 'stone': 'full', 'tools': 'depleted', 'metal': 'low'}
+Village needs herbs.
+Village needs food.
+Village needs water
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_water', 'gather_food', 'farm', 'hunt', 'gather_herbs']
+[1, 1, 10, 10, 10, 10, 10]
+['gather_herbs', 'hunt']
+Villager 1 has selected a new action: farm
+food : (low, 40.0)
+wood : (full, 1080.0)
+water : (depleted, 10.0)
+herbs : (low, 27.5)
+stone : (full, 1566.0)
+tools : (depleted, 0)
+metal : (low, 17.5)
+Actions to execute: 
+['gather_herbs', 'farm']
+Villager  sleeping.
+Villager is taking a nap.
+Villager need eating.
+villager is eating
+Villager  sleeping.
+Villager is taking a nap.
+Day 98
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is socializing.
+{'food': 'normal', 'wood': 'full', 'water': 'depleted', 'herbs': 'normal', 'stone': 'full', 'tools': 'depleted', 'metal': 'low'}
+Village needs water
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_water']
+[1, 1, 10]
+['gather_water', 'gather_water']
+Villager 1 has selected a new action: mine
+food : (normal, 70.0)
+wood : (full, 1080.0)
+water : (depleted, 10.0)
+herbs : (normal, 87.5)
+stone : (full, 1566.0)
+tools : (depleted, 0)
+metal : (low, 17.5)
+Actions to execute: 
+['gather_water', 'mine']
+Villager is drinking water.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Day 99
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is healing.
+Villager is socializing.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is healing.
+{'food': 'normal', 'wood': 'full', 'water': 'depleted', 'herbs': 'normal', 'stone': 'full', 'tools': 'depleted', 'metal': 'low'}
+Village needs water
+Village needs metal
+Village needs tools
+['forge', 'mine', 'gather_water']
+[1, 1, 10]
+['gather_water', 'gather_water']
+Villager 1 has selected a new action: mine
+food : (normal, 70.0)
+wood : (full, 1080.0)
+water : (depleted, 5.0)
+herbs : (normal, 62.5)
+stone : (full, 1576.0)
+tools : (depleted, 0)
+metal : (low, 22.5)
+Actions to execute: 
+['gather_water', 'mine']
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager  sleeping.
+Villager is taking a nap.
+Villager is drinking water.
+Villager is healing.
+end village count: 2
+food : (normal, 70.0)
+wood : (full, 1080.0)
+water : (depleted, 15.0)
+herbs : (low, 52.5)
+stone : (full, 1586.0)
+tools : (depleted, 0)
+metal : (low, 27.5)
+--------------------
+{'iteration': 0, 'state': ['food : (full, 1000)', 'wood : (full, 1000)', 'water : (full, 1010)', 'herbs : (full, 1027.5)', 'stone : (low, 50)', 'tools : (low, 50)', 'metal : (low, 50)'], 'villager_count': 10}
+{'iteration': 1, 'state': ['food : (full, 1010)', 'wood : (full, 1060.0)', 'water : (full, 1045)', 'herbs : (full, 1027.5)', 'stone : (low, 60.5)', 'tools : (depleted, 47.5)', 'metal : (depleted, 0)'], 'villager_count': 10}
+{'iteration': 2, 'state': ['food : (full, 1020)', 'wood : (full, 1060.0)', 'water : (full, 1055)', 'herbs : (full, 1027.5)', 'stone : (low, 80.5)', 'tools : (depleted, 23.5)', 'metal : (depleted, 0)'], 'villager_count': 10}
+{'iteration': 3, 'state': ['food : (full, 1020)', 'wood : (full, 1060.0)', 'water : (full, 1127.5)', 'herbs : (full, 1027.5)', 'stone : (low, 126.0)', 'tools : (depleted, 6.5)', 'metal : (depleted, 17.5)'], 'villager_count': 10}
+{'iteration': 4, 'state': ['food : (full, 1020)', 'wood : (full, 1070.0)', 'water : (full, 1157.5)', 'herbs : (full, 1037.5)', 'stone : (normal, 186.0)', 'tools : (depleted, 0)', 'metal : (depleted, 7.5)'], 'villager_count': 10}
+{'iteration': 5, 'state': ['food : (full, 1020)', 'wood : (full, 1070.0)', 'water : (full, 1147.5)', 'herbs : (full, 1037.5)', 'stone : (normal, 231.0)', 'tools : (depleted, 5)', 'metal : (depleted, 0)'], 'villager_count': 10}
+{'iteration': 6, 'state': ['food : (full, 1020)', 'wood : (full, 1070.0)', 'water : (full, 1147.5)', 'herbs : (full, 1042.5)', 'stone : (normal, 296.0)', 'tools : (depleted, 7.5)', 'metal : (depleted, 15.0)'], 'villager_count': 10}
+{'iteration': 7, 'state': ['food : (full, 1030)', 'wood : (full, 1070.0)', 'water : (full, 1162.5)', 'herbs : (full, 1042.5)', 'stone : (full, 356.0)', 'tools : (depleted, 0.5)', 'metal : (depleted, 10)'], 'villager_count': 10}
+{'iteration': 8, 'state': ['food : (full, 932.5)', 'wood : (full, 1070.0)', 'water : (full, 1050.0)', 'herbs : (full, 1042.5)', 'stone : (full, 436.0)', 'tools : (depleted, 2)', 'metal : (depleted, 30.0)'], 'villager_count': 10}
+{'iteration': 9, 'state': ['food : (full, 880.0)', 'wood : (full, 1070.0)', 'water : (full, 957.5)', 'herbs : (full, 1042.5)', 'stone : (full, 456.0)', 'tools : (depleted, 31.5)', 'metal : (depleted, 0)'], 'villager_count': 10}
+{'iteration': 10, 'state': ['food : (full, 850.0)', 'wood : (full, 1070.0)', 'water : (full, 890.0)', 'herbs : (full, 1067.5)', 'stone : (full, 521.0)', 'tools : (depleted, 13.0)', 'metal : (depleted, 0)'], 'villager_count': 10}
+{'iteration': 11, 'state': ['food : (full, 737.5)', 'wood : (full, 1070.0)', 'water : (full, 835.0)', 'herbs : (full, 1067.5)', 'stone : (full, 561.0)', 'tools : (depleted, 17.0)', 'metal : (depleted, 7.5)'], 'villager_count': 10}
+{'iteration': 12, 'state': ['food : (normal, 655.0)', 'wood : (full, 1070.0)', 'water : (full, 822.5)', 'herbs : (full, 1067.5)', 'stone : (full, 621.0)', 'tools : (depleted, 0)', 'metal : (depleted, 17.5)'], 'villager_count': 10}
+{'iteration': 13, 'state': ['food : (normal, 647.5)', 'wood : (full, 1070.0)', 'water : (full, 847.5)', 'herbs : (full, 1067.5)', 'stone : (full, 691.0)', 'tools : (depleted, 0)', 'metal : (depleted, 27.5)'], 'villager_count': 10}
+{'iteration': 14, 'state': ['food : (normal, 602.5)', 'wood : (full, 1070.0)', 'water : (full, 787.5)', 'herbs : (full, 1087.5)', 'stone : (full, 766.0)', 'tools : (depleted, 15.5)', 'metal : (depleted, 0)'], 'villager_count': 10}
+{'iteration': 15, 'state': ['food : (normal, 475.0)', 'wood : (full, 1070.0)', 'water : (full, 750.0)', 'herbs : (full, 1027.5)', 'stone : (full, 801.0)', 'tools : (depleted, 35.5)', 'metal : (depleted, 5)'], 'villager_count': 10}
+{'iteration': 16, 'state': ['food : (normal, 407.5)', 'wood : (full, 1070.0)', 'water : (full, 720.0)', 'herbs : (full, 987.5)', 'stone : (full, 861.0)', 'tools : (depleted, 29.0)', 'metal : (depleted, 0)'], 'villager_count': 10}
+{'iteration': 17, 'state': ['food : (normal, 370.0)', 'wood : (full, 1070.0)', 'water : (normal, 652.5)', 'herbs : (full, 932.5)', 'stone : (full, 926.0)', 'tools : (depleted, 7.5)', 'metal : (depleted, 0)'], 'villager_count': 10}
+{'iteration': 18, 'state': ['food : (low, 265.0)', 'wood : (full, 1070.0)', 'water : (normal, 585.0)', 'herbs : (full, 862.5)', 'stone : (full, 1006.0)', 'tools : (depleted, 5)', 'metal : (depleted, 15.0)'], 'villager_count': 10}
+{'iteration': 19, 'state': ['food : (normal, 355.0)', 'wood : (full, 1070.0)', 'water : (normal, 532.5)', 'herbs : (full, 762.5)', 'stone : (full, 1036.0)', 'tools : (depleted, 3.5)', 'metal : (depleted, 5)'], 'villager_count': 10}
+{'iteration': 20, 'state': ['food : (low, 272.5)', 'wood : (full, 1070.0)', 'water : (normal, 472.5)', 'herbs : (full, 732.5)', 'stone : (full, 1146.0)', 'tools : (depleted, 1)', 'metal : (depleted, 35.0)'], 'villager_count': 10}
+{'iteration': 21, 'state': ['food : (low, 202.5)', 'wood : (full, 1070.0)', 'water : (normal, 390.0)', 'herbs : (normal, 672.5)', 'stone : (full, 1166.0)', 'tools : (depleted, 5)', 'metal : (depleted, 0)'], 'villager_count': 10}
+{'iteration': 22, 'state': ['food : (depleted, 75.0)', 'wood : (full, 1080.0)', 'water : (normal, 360.0)', 'herbs : (normal, 632.5)', 'stone : (full, 1211.0)', 'tools : (depleted, 10)', 'metal : (depleted, 0)'], 'villager_count': 10}
+{'iteration': 23, 'state': ['food : (low, 165.0)', 'wood : (full, 1080.0)', 'water : (normal, 322.5)', 'herbs : (normal, 522.5)', 'stone : (full, 1211.0)', 'tools : (depleted, 13.5)', 'metal : (depleted, 0)'], 'villager_count': 10}
+{'iteration': 24, 'state': ['food : (low, 102.5)', 'wood : (full, 1080.0)', 'water : (low, 247.5)', 'herbs : (normal, 447.5)', 'stone : (full, 1236.0)', 'tools : (depleted, 27.5)', 'metal : (depleted, 7.5)'], 'villager_count': 10}
+{'iteration': 25, 'state': ['food : (depleted, 27.5)', 'wood : (full, 1080.0)', 'water : (low, 230.0)', 'herbs : (normal, 342.5)', 'stone : (full, 1246.0)', 'tools : (depleted, 15.5)', 'metal : (depleted, 0)'], 'villager_count': 10}
+{'iteration': 26, 'state': ['food : (depleted, 2.5)', 'wood : (full, 1080.0)', 'water : (low, 155.0)', 'herbs : (low, 257.5)', 'stone : (full, 1261.0)', 'tools : (depleted, 43.5)', 'metal : (depleted, 0)'], 'villager_count': 10}
+{'iteration': 27, 'state': ['food : (depleted, 2.5)', 'wood : (full, 1080.0)', 'water : (depleted, 17.5)', 'herbs : (low, 132.5)', 'stone : (full, 1281.0)', 'tools : (depleted, 45.5)', 'metal : (depleted, 0)'], 'villager_count': 10}
+{'iteration': 28, 'state': ['food : (depleted, 7.5)', 'wood : (full, 1080.0)', 'water : (depleted, 2.5)', 'herbs : (depleted, 32.5)', 'stone : (full, 1296.0)', 'tools : (depleted, 33.5)', 'metal : (depleted, 7.5)'], 'villager_count': 10}
+{'iteration': 29, 'state': ['food : (depleted, 5.0)', 'wood : (full, 1080.0)', 'water : (depleted, 2.5)', 'herbs : (depleted, 7.5)', 'stone : (full, 1311.0)', 'tools : (depleted, 38.0)', 'metal : (depleted, 0)'], 'villager_count': 10}
+{'iteration': 30, 'state': ['food : (depleted, 10.0)', 'wood : (full, 1080.0)', 'water : (depleted, 2.5)', 'herbs : (low, 147.5)', 'stone : (full, 1311.0)', 'tools : (depleted, 32.0)', 'metal : (depleted, 0)'], 'villager_count': 10}
+{'iteration': 31, 'state': ['food : (depleted, 10.0)', 'wood : (full, 1080.0)', 'water : (depleted, 2.5)', 'herbs : (low, 247.5)', 'stone : (full, 1311.0)', 'tools : (depleted, 24.5)', 'metal : (depleted, 0)'], 'villager_count': 9}
+{'iteration': 32, 'state': ['food : (depleted, 10.0)', 'wood : (full, 1080.0)', 'water : (depleted, 2.5)', 'herbs : (normal, 342.5)', 'stone : (full, 1341.0)', 'tools : (depleted, 17.5)', 'metal : (depleted, 10)'], 'villager_count': 7}
+{'iteration': 33, 'state': ['food : (depleted, 30.0)', 'wood : (full, 1080.0)', 'water : (depleted, 2.5)', 'herbs : (normal, 287.5)', 'stone : (full, 1341.0)', 'tools : (depleted, 0)', 'metal : (depleted, 10)'], 'villager_count': 6}
+{'iteration': 34, 'state': ['food : (depleted, 7.5)', 'wood : (full, 1080.0)', 'water : (depleted, 7.5)', 'herbs : (normal, 277.5)', 'stone : (full, 1371.0)', 'tools : (depleted, 0)', 'metal : (depleted, 25)'], 'villager_count': 6}
+{'iteration': 35, 'state': ['food : (depleted, 5.0)', 'wood : (full, 1080.0)', 'water : (depleted, 7.5)', 'herbs : (normal, 222.5)', 'stone : (full, 1371.0)', 'tools : (depleted, 0)', 'metal : (depleted, 0)'], 'villager_count': 6}
+{'iteration': 36, 'state': ['food : (depleted, 2.5)', 'wood : (full, 1080.0)', 'water : (depleted, 7.5)', 'herbs : (low, 172.5)', 'stone : (full, 1386.0)', 'tools : (depleted, 7.5)', 'metal : (depleted, 0)'], 'villager_count': 6}
+{'iteration': 37, 'state': ['food : (depleted, 10.0)', 'wood : (full, 1080.0)', 'water : (depleted, 10.0)', 'herbs : (normal, 192.5)', 'stone : (full, 1386.0)', 'tools : (depleted, 7.5)', 'metal : (depleted, 0)'], 'villager_count': 6}
+{'iteration': 38, 'state': ['food : (depleted, 10.0)', 'wood : (full, 1080.0)', 'water : (depleted, 10.0)', 'herbs : (low, 117.5)', 'stone : (full, 1401.0)', 'tools : (depleted, 0)', 'metal : (depleted, 7.5)'], 'villager_count': 6}
+{'iteration': 39, 'state': ['food : (low, 65.0)', 'wood : (full, 1080.0)', 'water : (depleted, 10.0)', 'herbs : (low, 72.5)', 'stone : (full, 1401.0)', 'tools : (depleted, 5)', 'metal : (depleted, 0)'], 'villager_count': 6}
+{'iteration': 40, 'state': ['food : (depleted, 25.0)', 'wood : (full, 1080.0)', 'water : (depleted, 10.0)', 'herbs : (low, 82.5)', 'stone : (full, 1401.0)', 'tools : (depleted, 7.5)', 'metal : (depleted, 0)'], 'villager_count': 6}
+{'iteration': 41, 'state': ['food : (depleted, 0)', 'wood : (full, 1080.0)', 'water : (depleted, 5.0)', 'herbs : (depleted, 57.5)', 'stone : (full, 1401.0)', 'tools : (depleted, 7.5)', 'metal : (depleted, 0)'], 'villager_count': 6}
+{'iteration': 42, 'state': ['food : (depleted, 7.5)', 'wood : (full, 1080.0)', 'water : (depleted, 5.0)', 'herbs : (depleted, 52.5)', 'stone : (full, 1401.0)', 'tools : (depleted, 15.0)', 'metal : (depleted, 0)'], 'villager_count': 6}
+{'iteration': 43, 'state': ['food : (depleted, 12.5)', 'wood : (full, 1080.0)', 'water : (depleted, 5.0)', 'herbs : (low, 137.5)', 'stone : (full, 1416.0)', 'tools : (depleted, 13.0)', 'metal : (depleted, 7.5)'], 'villager_count': 6}
+{'iteration': 44, 'state': ['food : (depleted, 27.5)', 'wood : (full, 1080.0)', 'water : (depleted, 5.0)', 'herbs : (low, 122.5)', 'stone : (full, 1416.0)', 'tools : (depleted, 9.0)', 'metal : (depleted, 7.5)'], 'villager_count': 6}
+{'iteration': 45, 'state': ['food : (depleted, 12.5)', 'wood : (full, 1080.0)', 'water : (depleted, 12.5)', 'herbs : (depleted, 32.5)', 'stone : (full, 1446.0)', 'tools : (depleted, 17.5)', 'metal : (depleted, 7.5)'], 'villager_count': 6}
+{'iteration': 46, 'state': ['food : (depleted, 5.0)', 'wood : (full, 1080.0)', 'water : (depleted, 12.5)', 'herbs : (depleted, 2.5)', 'stone : (full, 1461.0)', 'tools : (depleted, 25.5)', 'metal : (depleted, 7.5)'], 'villager_count': 6}
+{'iteration': 47, 'state': ['food : (depleted, 5.0)', 'wood : (full, 1080.0)', 'water : (depleted, 7.5)', 'herbs : (low, 82.5)', 'stone : (full, 1461.0)', 'tools : (depleted, 25.5)', 'metal : (depleted, 7.5)'], 'villager_count': 6}
+{'iteration': 48, 'state': ['food : (depleted, 12.5)', 'wood : (full, 1080.0)', 'water : (depleted, 7.5)', 'herbs : (low, 112.5)', 'stone : (full, 1461.0)', 'tools : (depleted, 23.0)', 'metal : (depleted, 0)'], 'villager_count': 5}
+{'iteration': 49, 'state': ['food : (depleted, 12.5)', 'wood : (full, 1080.0)', 'water : (depleted, 2.5)', 'herbs : (normal, 132.5)', 'stone : (full, 1471.0)', 'tools : (depleted, 19.0)', 'metal : (depleted, 0)'], 'villager_count': 4}
+{'iteration': 50, 'state': ['food : (depleted, 12.5)', 'wood : (full, 1080.0)', 'water : (depleted, 2.5)', 'herbs : (normal, 117.5)', 'stone : (full, 1471.0)', 'tools : (depleted, 9.0)', 'metal : (depleted, 0)'], 'villager_count': 2}
+{'iteration': 51, 'state': ['food : (low, 42.5)', 'wood : (full, 1080.0)', 'water : (depleted, 2.5)', 'herbs : (normal, 117.5)', 'stone : (full, 1481.0)', 'tools : (depleted, 0)', 'metal : (depleted, 5)'], 'villager_count': 2}
+{'iteration': 52, 'state': ['food : (low, 47.5)', 'wood : (full, 1080.0)', 'water : (depleted, 17.5)', 'herbs : (normal, 92.5)', 'stone : (full, 1481.0)', 'tools : (depleted, 0)', 'metal : (depleted, 5)'], 'villager_count': 2}
+{'iteration': 53, 'state': ['food : (normal, 92.5)', 'wood : (full, 1080.0)', 'water : (depleted, 2.5)', 'herbs : (low, 57.5)', 'stone : (full, 1481.0)', 'tools : (depleted, 0)', 'metal : (depleted, 5)'], 'villager_count': 2}
+{'iteration': 54, 'state': ['food : (normal, 62.5)', 'wood : (full, 1080.0)', 'water : (low, 20.0)', 'herbs : (low, 37.5)', 'stone : (full, 1481.0)', 'tools : (depleted, 7.5)', 'metal : (depleted, 0)'], 'villager_count': 2}
+{'iteration': 55, 'state': ['food : (low, 47.5)', 'wood : (full, 1080.0)', 'water : (normal, 100.0)', 'herbs : (low, 27.5)', 'stone : (full, 1481.0)', 'tools : (depleted, 7.5)', 'metal : (depleted, 0)'], 'villager_count': 2}
+{'iteration': 56, 'state': ['food : (low, 32.5)', 'wood : (full, 1080.0)', 'water : (normal, 85.0)', 'herbs : (low, 57.5)', 'stone : (full, 1481.0)', 'tools : (low, 15.0)', 'metal : (depleted, 0)'], 'villager_count': 2}
+{'iteration': 57, 'state': ['food : (low, 32.5)', 'wood : (full, 1080.0)', 'water : (normal, 85.0)', 'herbs : (normal, 67.5)', 'stone : (full, 1481.0)', 'tools : (low, 15.0)', 'metal : (depleted, 0)'], 'villager_count': 2}
+{'iteration': 58, 'state': ['food : (normal, 62.5)', 'wood : (full, 1080.0)', 'water : (normal, 77.5)', 'herbs : (low, 57.5)', 'stone : (full, 1496.0)', 'tools : (low, 10.5)', 'metal : (depleted, 7.5)'], 'villager_count': 2}
+{'iteration': 59, 'state': ['food : (low, 47.5)', 'wood : (full, 1080.0)', 'water : (normal, 62.5)', 'herbs : (normal, 117.5)', 'stone : (full, 1496.0)', 'tools : (low, 10.5)', 'metal : (depleted, 7.5)'], 'villager_count': 2}
+{'iteration': 60, 'state': ['food : (low, 47.5)', 'wood : (full, 1080.0)', 'water : (normal, 62.5)', 'herbs : (normal, 97.5)', 'stone : (full, 1496.0)', 'tools : (low, 10.5)', 'metal : (depleted, 7.5)'], 'villager_count': 2}
+{'iteration': 61, 'state': ['food : (low, 45.0)', 'wood : (full, 1080.0)', 'water : (normal, 62.5)', 'herbs : (normal, 97.5)', 'stone : (full, 1496.0)', 'tools : (low, 15.5)', 'metal : (depleted, 0)'], 'villager_count': 2}
+{'iteration': 62, 'state': ['food : (low, 30.0)', 'wood : (full, 1080.0)', 'water : (low, 32.5)', 'herbs : (normal, 77.5)', 'stone : (full, 1511.0)', 'tools : (low, 18.5)', 'metal : (depleted, 7.5)'], 'villager_count': 2}
+{'iteration': 63, 'state': ['food : (normal, 75.0)', 'wood : (full, 1080.0)', 'water : (depleted, 17.5)', 'herbs : (normal, 62.5)', 'stone : (full, 1511.0)', 'tools : (low, 23.5)', 'metal : (depleted, 0)'], 'villager_count': 2}
+{'iteration': 64, 'state': ['food : (normal, 75.0)', 'wood : (full, 1080.0)', 'water : (normal, 117.5)', 'herbs : (normal, 62.5)', 'stone : (full, 1511.0)', 'tools : (low, 23.5)', 'metal : (depleted, 0)'], 'villager_count': 2}
+{'iteration': 65, 'state': ['food : (normal, 67.5)', 'wood : (full, 1080.0)', 'water : (normal, 87.5)', 'herbs : (low, 47.5)', 'stone : (full, 1511.0)', 'tools : (low, 24.5)', 'metal : (depleted, 0)'], 'villager_count': 2}
+{'iteration': 66, 'state': ['food : (normal, 60.0)', 'wood : (full, 1080.0)', 'water : (normal, 87.5)', 'herbs : (normal, 127.5)', 'stone : (full, 1511.0)', 'tools : (low, 24.5)', 'metal : (depleted, 0)'], 'villager_count': 2}
+{'iteration': 67, 'state': ['food : (normal, 60.0)', 'wood : (full, 1080.0)', 'water : (normal, 87.5)', 'herbs : (normal, 112.5)', 'stone : (full, 1521.0)', 'tools : (low, 25.5)', 'metal : (depleted, 0)'], 'villager_count': 2}
+{'iteration': 68, 'state': ['food : (normal, 60.0)', 'wood : (full, 1080.0)', 'water : (low, 50.0)', 'herbs : (normal, 87.5)', 'stone : (full, 1531.0)', 'tools : (low, 17.5)', 'metal : (depleted, 5)'], 'villager_count': 2}
+{'iteration': 69, 'state': ['food : (low, 45.0)', 'wood : (full, 1080.0)', 'water : (normal, 92.5)', 'herbs : (low, 52.5)', 'stone : (full, 1531.0)', 'tools : (low, 17.5)', 'metal : (depleted, 5)'], 'villager_count': 2}
+{'iteration': 70, 'state': ['food : (depleted, 15.0)', 'wood : (full, 1080.0)', 'water : (normal, 77.5)', 'herbs : (normal, 92.5)', 'stone : (full, 1531.0)', 'tools : (low, 17.5)', 'metal : (depleted, 5)'], 'villager_count': 2}
+{'iteration': 71, 'state': ['food : (depleted, 5.0)', 'wood : (full, 1080.0)', 'water : (normal, 70.0)', 'herbs : (normal, 77.5)', 'stone : (full, 1531.0)', 'tools : (low, 12.5)', 'metal : (depleted, 5)'], 'villager_count': 2}
+{'iteration': 72, 'state': ['food : (depleted, 0)', 'wood : (full, 1080.0)', 'water : (low, 55.0)', 'herbs : (low, 47.5)', 'stone : (full, 1531.0)', 'tools : (low, 12.5)', 'metal : (depleted, 0)'], 'villager_count': 2}
+{'iteration': 73, 'state': ['food : (depleted, 0)', 'wood : (full, 1080.0)', 'water : (low, 47.5)', 'herbs : (low, 37.5)', 'stone : (full, 1531.0)', 'tools : (low, 12.5)', 'metal : (depleted, 0)'], 'villager_count': 2}
+{'iteration': 74, 'state': ['food : (depleted, 0)', 'wood : (full, 1080.0)', 'water : (low, 47.5)', 'herbs : (normal, 97.5)', 'stone : (full, 1531.0)', 'tools : (low, 12.5)', 'metal : (depleted, 0)'], 'villager_count': 2}
+{'iteration': 75, 'state': ['food : (depleted, 0)', 'wood : (full, 1080.0)', 'water : (low, 47.5)', 'herbs : (normal, 67.5)', 'stone : (full, 1531.0)', 'tools : (low, 10.0)', 'metal : (depleted, 0)'], 'villager_count': 2}
+{'iteration': 76, 'state': ['food : (depleted, 0)', 'wood : (full, 1080.0)', 'water : (low, 25.0)', 'herbs : (low, 37.5)', 'stone : (full, 1531.0)', 'tools : (depleted, 7.5)', 'metal : (depleted, 0)'], 'villager_count': 2}
+{'iteration': 77, 'state': ['food : (depleted, 0)', 'wood : (full, 1080.0)', 'water : (depleted, 2.5)', 'herbs : (normal, 72.5)', 'stone : (full, 1531.0)', 'tools : (depleted, 2.5)', 'metal : (depleted, 0)'], 'villager_count': 2}
+{'iteration': 78, 'state': ['food : (depleted, 12.5)', 'wood : (full, 1080.0)', 'water : (depleted, 5.0)', 'herbs : (low, 42.5)', 'stone : (full, 1531.0)', 'tools : (depleted, 2.5)', 'metal : (depleted, 0)'], 'villager_count': 2}
+{'iteration': 79, 'state': ['food : (low, 50.0)', 'wood : (full, 1080.0)', 'water : (depleted, 5.0)', 'herbs : (low, 42.5)', 'stone : (full, 1531.0)', 'tools : (depleted, 0)', 'metal : (depleted, 0)'], 'villager_count': 2}
+{'iteration': 80, 'state': ['food : (low, 27.5)', 'wood : (full, 1080.0)', 'water : (depleted, 5.0)', 'herbs : (normal, 77.5)', 'stone : (full, 1531.0)', 'tools : (depleted, 0)', 'metal : (depleted, 0)'], 'villager_count': 2}
+{'iteration': 81, 'state': ['food : (depleted, 12.5)', 'wood : (full, 1080.0)', 'water : (depleted, 5.0)', 'herbs : (low, 47.5)', 'stone : (full, 1531.0)', 'tools : (depleted, 0)', 'metal : (depleted, 0)'], 'villager_count': 2}
+{'iteration': 82, 'state': ['food : (depleted, 12.5)', 'wood : (full, 1080.0)', 'water : (depleted, 5.0)', 'herbs : (normal, 72.5)', 'stone : (full, 1531.0)', 'tools : (depleted, 0)', 'metal : (depleted, 0)'], 'villager_count': 2}
+{'iteration': 83, 'state': ['food : (depleted, 12.5)', 'wood : (full, 1080.0)', 'water : (depleted, 5.0)', 'herbs : (low, 47.5)', 'stone : (full, 1531.0)', 'tools : (depleted, 0)', 'metal : (depleted, 0)'], 'villager_count': 2}
+{'iteration': 84, 'state': ['food : (depleted, 12.5)', 'wood : (full, 1080.0)', 'water : (depleted, 5.0)', 'herbs : (normal, 67.5)', 'stone : (full, 1531.0)', 'tools : (depleted, 0)', 'metal : (depleted, 0)'], 'villager_count': 2}
+{'iteration': 85, 'state': ['food : (normal, 65.0)', 'wood : (full, 1080.0)', 'water : (depleted, 5.0)', 'herbs : (low, 52.5)', 'stone : (full, 1531.0)', 'tools : (depleted, 0)', 'metal : (depleted, 0)'], 'villager_count': 2}
+{'iteration': 86, 'state': ['food : (low, 27.5)', 'wood : (full, 1080.0)', 'water : (low, 52.5)', 'herbs : (low, 37.5)', 'stone : (full, 1531.0)', 'tools : (depleted, 0)', 'metal : (depleted, 0)'], 'villager_count': 2}
+{'iteration': 87, 'state': ['food : (low, 20.0)', 'wood : (full, 1080.0)', 'water : (normal, 62.5)', 'herbs : (low, 27.5)', 'stone : (full, 1531.0)', 'tools : (depleted, 0)', 'metal : (depleted, 0)'], 'villager_count': 2}
+{'iteration': 88, 'state': ['food : (low, 40.0)', 'wood : (full, 1080.0)', 'water : (normal, 62.5)', 'herbs : (depleted, 7.5)', 'stone : (full, 1531.0)', 'tools : (depleted, 5)', 'metal : (depleted, 0)'], 'villager_count': 2}
+{'iteration': 89, 'state': ['food : (low, 52.5)', 'wood : (full, 1080.0)', 'water : (normal, 62.5)', 'herbs : (depleted, 7.5)', 'stone : (full, 1531.0)', 'tools : (depleted, 0)', 'metal : (depleted, 0)'], 'villager_count': 2}
+{'iteration': 90, 'state': ['food : (normal, 72.5)', 'wood : (full, 1080.0)', 'water : (low, 25.0)', 'herbs : (low, 32.5)', 'stone : (full, 1531.0)', 'tools : (depleted, 0)', 'metal : (depleted, 0)'], 'villager_count': 2}
+{'iteration': 91, 'state': ['food : (low, 57.5)', 'wood : (full, 1080.0)', 'water : (depleted, 10.0)', 'herbs : (depleted, 7.5)', 'stone : (full, 1531.0)', 'tools : (depleted, 5)', 'metal : (depleted, 0)'], 'villager_count': 2}
+{'iteration': 92, 'state': ['food : (normal, 72.5)', 'wood : (full, 1080.0)', 'water : (depleted, 10.0)', 'herbs : (depleted, 7.5)', 'stone : (full, 1546.0)', 'tools : (depleted, 3.0)', 'metal : (depleted, 7.5)'], 'villager_count': 2}
+{'iteration': 93, 'state': ['food : (normal, 72.5)', 'wood : (full, 1080.0)', 'water : (depleted, 10.0)', 'herbs : (low, 27.5)', 'stone : (full, 1556.0)', 'tools : (depleted, 0)', 'metal : (low, 12.5)'], 'villager_count': 2}
+{'iteration': 94, 'state': ['food : (low, 42.5)', 'wood : (full, 1080.0)', 'water : (depleted, 10.0)', 'herbs : (normal, 87.5)', 'stone : (full, 1556.0)', 'tools : (depleted, 0)', 'metal : (low, 12.5)'], 'villager_count': 2}
+{'iteration': 95, 'state': ['food : (low, 47.5)', 'wood : (full, 1080.0)', 'water : (depleted, 10.0)', 'herbs : (normal, 67.5)', 'stone : (full, 1556.0)', 'tools : (depleted, 0)', 'metal : (low, 12.5)'], 'villager_count': 2}
+{'iteration': 96, 'state': ['food : (normal, 77.5)', 'wood : (full, 1080.0)', 'water : (depleted, 10.0)', 'herbs : (low, 52.5)', 'stone : (full, 1556.0)', 'tools : (depleted, 0)', 'metal : (low, 12.5)'], 'villager_count': 2}
+{'iteration': 97, 'state': ['food : (low, 40.0)', 'wood : (full, 1080.0)', 'water : (depleted, 10.0)', 'herbs : (low, 27.5)', 'stone : (full, 1566.0)', 'tools : (depleted, 0)', 'metal : (low, 17.5)'], 'villager_count': 2}
+{'iteration': 98, 'state': ['food : (normal, 70.0)', 'wood : (full, 1080.0)', 'water : (depleted, 10.0)', 'herbs : (normal, 87.5)', 'stone : (full, 1566.0)', 'tools : (depleted, 0)', 'metal : (low, 17.5)'], 'villager_count': 2}
+{'iteration': 99, 'state': ['food : (normal, 70.0)', 'wood : (full, 1080.0)', 'water : (depleted, 5.0)', 'herbs : (normal, 62.5)', 'stone : (full, 1576.0)', 'tools : (depleted, 0)', 'metal : (low, 22.5)'], 'villager_count': 2}
+{'iteration': 100, 'state': ['food : (normal, 70.0)', 'wood : (full, 1080.0)', 'water : (depleted, 15.0)', 'herbs : (low, 52.5)', 'stone : (full, 1586.0)', 'tools : (depleted, 0)', 'metal : (low, 27.5)'], 'villager_count': 2}
+
+
+
+
+Throughout the iterations of the simulation, several significant events occurred that impacted the village's survival and well-being. Let's examine the changes in the key resources and the village population over time:
+
+1. **Food**: The village started with a full food supply but quickly depleted it by around iteration 12, leading to starvation and deaths among the villagers. There were brief moments of recovery, but the food supply remained low for most of the simulation.
+
+2. **Wood**: Wood was consistently maintained at a full level throughout the simulation, indicating efficient resource management in this aspect.
+
+3. **Water**: Water levels fluctuated, with multiple instances of depletion or running low. These shortages likely posed immediate threats to the villagers' health and could have led to casualties.
+
+4. **Herbs**: Herb levels were fairly consistent, with occasional drops but quick recoveries. Herbs likely played a crucial role in maintaining the villagers' health and preventing diseases.
+
+5. **Stones**: Stones transitioned from low to full levels early in the simulation but remained stable afterward. Stones are essential for construction, so their availability likely affected the village's ability to expand and build infrastructure.
+
+6. **Tools and Metals**: Tools and metals saw a gradual depletion over time, reaching critical levels around iteration 32. The lack of tools could have hindered production and efficiency, impacting resource gathering and utilization.
+
+7. **Village Population**: The village population started with 10 villagers but gradually declined due to resource shortages and unsustainable living conditions. The population saw a sharp decrease around iteration 32, likely due to the depletion of critical resources like water and tools.
+
+Recurring patterns in the simulation include cycles of resource depletion followed by brief recoveries, only to deplete again. Critical moments such as food or water shortages directly impacted the villagers' ability to survive, leading to deaths and population decline. The depletion of tools and metals also likely hindered the village's productivity and efforts to sustain themselves.
+
+In conclusion, the village's struggles with resource management, specifically around food, water, and tools, led to a downward spiral of declining population and well-being. Sustainable resource allocation and measures to prevent resource exhaustion are crucial for the village's survival and growth.

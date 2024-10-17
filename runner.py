@@ -7,18 +7,18 @@ from entities.village import Village
 from VillageStatistics import VillageStatistics
 
 class SimulationRunner:
-    def __init__(self, iterations):
+    def __init__(self, PARAMETERS):
         self.env = simpy.Environment()
-        self.iterations = iterations
+        self.iterations = PARAMETERS["iterations"]
         villager_count = 10
         initial_state = {
-            "food": 100*villager_count,
-            "wood": 100*villager_count,
-            "water": 100*villager_count,
-            "herbs": 100*villager_count,
-            "stone": 50,
-            "tools": 50,
-            "metal": 50
+            "food": PARAMETERS["food"]* PARAMETERS["villager_count"],
+            "wood": PARAMETERS["wood"]* PARAMETERS["villager_count"],
+            "water": PARAMETERS["water"]* PARAMETERS["villager_count"],
+            "herbs": PARAMETERS["herbs"]* PARAMETERS["villager_count"],
+            "stone": PARAMETERS["stone"],
+            "tools": PARAMETERS["tools"],
+            "metal": PARAMETERS["metal"]
         }
         self.village = Village(initial_state, villagers=villager_count)
         # self.villager.state.show_state()
